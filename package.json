@@ -1,0 +1,23 @@
+{
+  "name": "guide",
+  "version": "2.0.0",
+  "description": "Anymod Guide",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anymod/guide.git"
+  },
+  "keywords": [
+    "anymod",
+    "guide"
+  ],
+  "author": "anymod",
+  "bugs": {
+    "url": "https://github.com/anymod/guide/issues"
+  },
+  "homepage": "https://github.com/anymod/guide#readme"
+}
