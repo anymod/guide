@@ -7,6 +7,11 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       { text: 'External', link: 'https://google.com' },
     ],
+    sidebar: [
+      '/',
+      '/examples/markdown.html',
+      ['/guide/', 'Explicit link text']
+    ],
     lastUpdated: 'Last Updated', // string | boolean
     // https://vuepress.vuejs.org/default-theme-config/#algolia-search
     // algolia: {
@@ -32,5 +37,8 @@ module.exports = {
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: 'Help us improve this page!'
+  },
+  markdown: {
+    lineNumbers: true
   }
 }
