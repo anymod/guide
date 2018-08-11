@@ -7,6 +7,12 @@ lang: en-US
 
 Anymod is cool
 
+{{ $page }}
+
+<demo/>
+
+After 2
+
 ## Quickstart
 
 Fast is good
