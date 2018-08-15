@@ -7,9 +7,9 @@ lang: en-US
 
 Module Monday is a weekly collection of open-source mods you can use to quickly add features to your website or web app.
 
-Get your weekly mod fix in any of the following ways:
+See new mods as we release them in any of the following ways:
 
-- By following on [Dev.to](https://dev.to/tyrw) or [Medium](https://medium.com/anymod)
+- By following on [Dev.to](https://dev.to/tyrw), [Twitter](https://twitter.com/anymod_team), or [Medium](https://medium.com/anymod)
 - By signing up for [Anymod](https://anymod.com)
 - By subscribing to the [mailing list](https://anymod.us17.list-manage.com/subscribe?u=8d6f80723bc1252c9882e7d3f&id=b334c54b7e)
 

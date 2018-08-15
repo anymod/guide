@@ -15,6 +15,18 @@ module.exports = {
         ['/guide/', 'Explicit link text']
       ],
       '/examples/': [
+        '/examples/add-a-mod.html',
+        ['/examples/content-management.html', 'Manage content'],
+        '/examples/handlebars.html',
+        '/examples/scss.html',
+        '/examples/es6.html',
+        '/examples/jsx.html',
+        '/examples/typescript.html',
+        '/examples/react.html',
+        '/examples/vue.html',
+        '/examples/custom-scripts.html',
+        '/examples/custom-stylesheets.html',
+
         '/examples/markdown.html',
       ],
       '/module-monday/': [

@@ -1,16 +1,14 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: https://res.cloudinary.com/component/image/upload/v1519768558/mod_logo_min.svg
 actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Guide
+  details: Introduction, how to use Anymod, and API docs.
+- title: Examples
+  details: Various examples of how to use Anymod and its features.
+- title: Module Monday
+  details: A weekly release of open-source mods you can use in any project.
+footer: MIT Licensed | Copyright © 2018-present Anymod
 ---
-
-# Hello
