@@ -12,7 +12,7 @@ Start with an empty mod, with nothing added. You can fork [this blank mod](https
 
 ### 2. Add a field named `content`
 
-In the settings section, add an `HTML` field named `content`
+In the **Fields** tab of the mod's settings, add a field named `content` with type `Rich text (HTML)`
 <img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-02_cyynqb.png"/>
 
 ### 3. Add the `content` field to your HTML panel
@@ -32,7 +32,7 @@ It is visible in the preview panel below all the code panels.
 
 ### 6. Add the mod to any website or web app
 
-Click the **Add to website** button and follow the instructions.  If you have not done so already, paste the anymod script into your page's &lt;head&gt; element:
+Click the **Add to website** button and follow the instructions.  If you have not done so already, paste the anymod script into your page's `<head>` element:
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Click the **Add to website** button and follow the instructions.  If you have no
 </head>
 ```
 
-This enables Anymod on the page.  Now add the mod in your HTML wherever you want it to appear:
+This enables Anymod on the page.  Now paste the mod's tag in your page's HTML wherever you want your mod to appear:
 
 ```html
 <div id="anymod-nmnmo"></div>

@@ -17,6 +17,7 @@ module.exports = {
       '/examples/': [
         '/examples/add-a-mod.html',
         ['/examples/content-management.html', 'Manage content'],
+        '/examples/make-page-editable.html',
         '/examples/handlebars.html',
         '/examples/scss.html',
         '/examples/es6.html',
