@@ -18,6 +18,7 @@ module.exports = {
         '/examples/add-a-mod.html',
         ['/examples/content-management.html', 'Manage content'],
         '/examples/make-page-editable.html',
+        '/examples/create-a-draft.html',
         '/examples/handlebars.html',
         '/examples/scss.html',
         '/examples/es6.html',

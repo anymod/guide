@@ -27,7 +27,7 @@ The page we'll start with is basic HTML. You can copy and paste into a file on y
 
 Opening this file in our browser, the page looks like this:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1534381540/add-mod-01_xkimjj.png">
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534381540/add-mod-01_xkimjj.png">
 
 To add a mod to the page, first find a mod that you like (the [Library](https://anymod.com/library) is a good place to look!).
 
@@ -69,6 +69,6 @@ Our updated HTML file now looks like this:
 
 Now when the page is reloaded, the mod appears:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1534381540/add-mod-02_ladprh.png">
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534381540/add-mod-02_ladprh.png">
 
 Congratulations, you've added a mod to your web page!

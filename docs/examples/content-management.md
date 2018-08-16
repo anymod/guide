@@ -8,27 +8,27 @@ In this example, you'll see how to add editable content to any web page.
 ### 1. Create a blank mod
 
 Start with an empty mod, with nothing added. You can fork [this blank mod](https://anymod.com/mod/llaba) if desired.
-<img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-01_njksxm.png"/>
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-01_njksxm.png"/>
 
 ### 2. Add a field named `content`
 
 In the **Fields** tab of the mod's settings, add a field named `content` with type `Rich text (HTML)`
-<img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-02_cyynqb.png"/>
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-02_cyynqb.png"/>
 
 ### 3. Add the `content` field to your HTML panel
 
 Use Handlebars HTML insertion syntax (`{{{` `}}}`) to automatically insert your field into the mod. For non-HTML fields (e.g. Plain Text), you can use a double mustache (`{{` `}}`) instead of a triple mustache.  See [Using Handlebars](/examples/handlebars.html) for more info.
-<img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-03_figr30.png"/>
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-03_figr30.png"/>
 
 ### 4. Set a value for the `content` field
 
 Click the **Content** button and add some text to your `content` field. Click **Publish**.
-<img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-04_ukwr7h.png"/>
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-04_ukwr7h.png"/>
 
 ### 5. Now your content is being inserted into your mod
 
 It is visible in the preview panel below all the code panels.
-<img src="https://res.cloudinary.com/component/image/upload/v1534372573/cms-05_wrrfav.png"/>
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-05_wrrfav.png"/>
 
 ### 6. Add the mod to any website or web app
 

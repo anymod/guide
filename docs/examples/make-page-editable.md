@@ -9,17 +9,9 @@ In this example, we'll make an existing piece of content on a website editable t
 
 If you have a block of content in mind, find the file for it in your code base and also open the page with your browser.
 
-For this example, we'll use a basic block of content on a very simple web page:
+For this example, we'll use a block of content on a simple web page:
 
-[img]
-
-The code for this content is also simple:
-
-```html
-<h2>Example content</h2>
-<p>Marketing deployment innovator incubator early adopters...</p>
-<p>Alpha bandwidth infrastructure niche market partnership...</p>
-```
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436338/editable-01_uhihft.png">
 
 ### 2. Add a mod to your project
 
@@ -31,10 +23,58 @@ We're using a simple "Content block" mod for this example, but you can use & cus
 
 ### 3. Click the *Content* button in the mod editor
 
-[img]
-
 This will let you edit the content in your new mod.
 
-### 4. Copy your content and paste it into the editor
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436196/editable-02_pspkig.png">
 
-When you are finished updating the content, click the **Publish** button to publish your new content.
+### 4. Paste your content into the text editor
+
+Delete the existing content and replace it with your own. Click the **Publish** button to publish your new content.
+
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-03_lvqehh.png">
+
+Now your content should be showing in the mod preview panel:
+
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-04_oelu3u.png">
+
+### 5. Replace the HTML on your page
+
+Find the content in your page's HTML, and replace it with your mod tag.
+
+Replace:
+
+```html
+<h2>
+  Example content
+</h2>
+<p>
+  Marketing deployment innovator incubator early adopters...
+</p>
+<p>
+  Alpha bandwidth infrastructure niche market partnership...
+</p>
+```
+
+with
+
+```html
+<div id="anymod-lrarn"></div>
+```
+
+::: tip
+Be sure you have added the Anymod script to the top of your page as well. Learn more about setup [here](/examples/add-a-mod.html).
+:::
+
+### 6. Reload your page - now it's editable
+
+Your page should look the same as before, but now you can see a pencil on the right side of the page whenever you're logged into Anymod.
+
+Click the pencil and then select your mod to make live edits directly from your page.
+
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437796/editable-05_xtsof6.png">
+
+::: tip
+The editor pencil will show on your web page whenever you're logged in to Anymod. It won't show for your site visitors.
+
+To allow others to make edits, you can either add them to the project on Anymod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits.
+:::
