@@ -1,6 +1,9 @@
 module.exports = {
   title: 'Anymod Guide',
   description: 'Documentation & Examples for Anymod',
+  head: [
+    ['link', { rel: 'icon', href: 'https://res.cloudinary.com/component/image/upload/v1519346560/mod_logo_120px.png' }]
+  ],
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide/' },
