@@ -15,21 +15,27 @@ module.exports = {
         ['/guide/', 'Explicit link text']
       ],
       '/examples/': [
+        ['/examples/', 'List of examples'],
+        // Getting started
         '/examples/add-a-mod.html',
+        // Content management
         ['/examples/content-management.html', 'Manage content'],
         '/examples/make-page-editable.html',
         '/examples/create-a-draft.html',
+        // Build & customize mods
+        '/examples/react.html',
+        '/examples/vue.html',
+        '/examples/custom-stylesheets.html',
+        '/examples/custom-scripts.html',
         '/examples/handlebars.html',
         '/examples/scss.html',
         '/examples/es6.html',
         '/examples/jsx.html',
         '/examples/typescript.html',
-        '/examples/react.html',
-        '/examples/vue.html',
-        '/examples/custom-scripts.html',
-        '/examples/custom-stylesheets.html',
-
-        '/examples/markdown.html',
+        // Enhancements
+        '/examples/optimize-assets.html',
+        '/examples/image-manipulation.html',
+        '/examples/right-size-image.html',
       ],
       '/module-monday/': [
         '/module-monday/08.html',

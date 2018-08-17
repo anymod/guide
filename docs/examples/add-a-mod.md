@@ -1,5 +1,5 @@
 ---
-title: Add a mod to your page
+title: Add a mod to your page [TODO]
 lang: en-US
 ---
 
@@ -9,7 +9,9 @@ TODO get this working
 
 In this example, we'll add a mod to an empty web page.
 
-The page we'll start with is basic HTML. You can copy and paste into a file on your computer if you'd like to follow along:
+### 1. Basic web page
+
+We'll start with a basic HTML web page. You can copy and paste into a file on your computer if you'd like to follow along:
 
 ```html
 <html>
@@ -29,18 +31,25 @@ Opening this file in our browser, the page looks like this:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534381540/add-mod-01_xkimjj.png">
 
+### 2. Add a mod
+
 To add a mod to the page, first find a mod that you like (the [Library](https://anymod.com/library) is a good place to look!).
 
 For this example, we'll add an animated timeline, which you can find [here](https://anymod.com/mod/nmnko?v=30)
 
-Click the **Fork** button to copy the mod into your project, then click **Add to website**:
+Click the **Fork** button to copy the mod into your project.
 
-1. Paste the **mod tag** in the `<body>` wherever you want the mod to appear
-2. Paste the **Anymod script** just before the closing `</head>` tag of your web page
+### 3. Add the mod to your page
+
+In the mod editor view, click the **Add to website** button in top right corner.
+
+First, paste the **mod tag** in the `<body>` wherever you want the mod to appear.
+
+Next, paste the **Anymod script** just before the closing `</head>` tag of your web page.
 
 Our updated HTML file now looks like this:
 
-```html
+```html{7-12,20}
 <html>
 
   <head>

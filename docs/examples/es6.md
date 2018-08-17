@@ -1,4 +1,4 @@
 ---
-title: Using ES6 / ES2015
+title: Use ES6 / ES2015 [TODO]
 lang: en-US
 ---
