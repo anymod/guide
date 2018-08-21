@@ -17,7 +17,11 @@ Create or fork a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 In the dropdown for the JavaScript panel, select **React JSX**
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-01_beo2ri.png">
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534862351/js-01_zggtos.png">
+
+::: tip
+It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars** whenever using JSX or HTML that has curly braces (`{}`).
+:::
 
 ### 3. Add React and ReactDOM scripts
 

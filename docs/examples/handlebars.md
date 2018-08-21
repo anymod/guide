@@ -3,9 +3,9 @@ title: Use Handlebars
 lang: en-US
 ---
 
-In this example, we'll use [Handlebars](https://handlebarsjs.com/) to pre-compile our HTML.
+In this example, we'll use [Handlebars](https://handlebarsjs.com/) to pre-compile a mod's HTML.
 
-### 1. Set the mod to Handlebars mode
+### 1. Set your mod to Handlebars mode
 
 Select Handlebars from the HTML panel dropdown:
 
