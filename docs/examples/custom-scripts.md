@@ -1,5 +1,5 @@
 ---
-title: Add custom scripts [TODO]
+title: Add custom scripts
 lang: en-US
 ---
 
@@ -41,12 +41,14 @@ Click the gear (cog) in the header of the JS panel to open the mod's JavaScript 
 
 Paste the URL for the Google Charts script: `https://www.gstatic.com/charts/loader.js`
 
-<img src="https://res.cloudinary.com/component/image/upload/v1534813793/script-01_ear7dg.png">
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534813793/script-01_ear7dg.png">
 
 Now when our mod runs, the JavaScript will function properly, and we get a nice Pie Chart:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1534814117/script-02_wi7svt.png">
+<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534814117/script-02_wi7svt.png">
 
 ### 4. Add script tags to your page (optional)
 
-[TODO] screenshot of warning tip along with explanation of how to improve performance
+Your mod will automatically load any external scripts when you've added the mod tag to your page.
+
+However, for improved performance, it is best to also add any external script tags to your page as described in [Optimizing CSS & JS assets](/examples/optimize-assets.html).
