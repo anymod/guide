@@ -27,7 +27,7 @@ Add some HTML to the mod. For this example, add some basic text with an id of `m
 
 ### 3. Add some ES6 JavaScript
 
-Let's add some newer JavaScript features to our mod:
+Add the JS below to your mod.  A few features of ES6 / ES2015 highlighted here are:
 
 - Line 1: `let` assignment, similar to `var` in earlier JS versions
 - Line 3: `const` assignment, used for one-time assignment when a variable's value will not change
@@ -70,7 +70,7 @@ Saving the mod will reload its preview, which should look like:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534863933/es6-02_jxgjb3.png">
 
-Babel has compiled the above ES6 / ES2015 JavaScript into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
+Babel has pre-compiled the above ES6 / ES2015 JavaScript into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
 
 ```js
 "use strict";

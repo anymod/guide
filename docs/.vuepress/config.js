@@ -14,6 +14,7 @@ module.exports = {
     sidebar: {
       '/guide/': [
         '/',
+        '/guide/global-methods.html',
         '/examples/markdown.html',
         ['/guide/', 'Explicit link text']
       ],
@@ -39,6 +40,12 @@ module.exports = {
         '/examples/optimize-assets.html',
         '/examples/image-manipulation.html',
         '/examples/right-size-image.html',
+        // External Services
+        '/examples/axios.html',
+        '/examples/mailchimp.html',
+        '/examples/cloudinary.html',
+        '/examples/google-maps.html',
+        '/examples/recaptcha.html',
       ],
       '/module-monday/': [
         '/module-monday/08.html',

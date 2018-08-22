@@ -27,7 +27,7 @@ If you're using a bundle build of React, you can add the URL to your bundle inst
 
 ### 3. Add some JSX
 
-Let's add some React JSX to our mod:
+Add the JSX below to your mod.  A few features of React JSX highlighted here are:
 
 - Lines 12 & 14: Return HTML elements directly. In line 12, call a function inside of curly braces (`{formatName(user)}`) and insert the result into the element.
 - Line 17: Define an element by calling a function with different inputs.
@@ -60,7 +60,6 @@ const element = (
 ReactDOM.render(element, mod.el)
 ```
 
-
 ### 4. Result
 
 Saving the mod will reload its preview, which should look like:
@@ -72,7 +71,7 @@ Saving the mod will reload its preview, which should look like:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534866816/jsx-02_phapgd.png">
 
-The above JSX is compiled into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
+The above JSX is pre-compiled into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
 
 ```js
 "use strict";

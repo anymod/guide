@@ -77,7 +77,7 @@ The mod's final HTML markup in this example looks like the following:
 </div>
 ```
 
-The SCSS in this example is compiled to the following CSS when the mod is displayed:
+The SCSS in this example is pre-compiled to the following CSS when the mod is displayed:
 
 ```css
 [kbbdr] {

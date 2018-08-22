@@ -76,7 +76,7 @@ h1 {
 
 ### 7. Save your mod
 
-When you click **Save**, your mod is automatically compiled and displayed. It should look like the example below:
+When you click **Save**, your mod is automatically pre-compiled and displayed. It should look like the example below:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-03_vdgv2a.png">
 
