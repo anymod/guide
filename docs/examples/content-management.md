@@ -7,7 +7,7 @@ In this example, you'll see how to add editable content to any web page.
 
 ### 1. Create a blank mod
 
-Start with an empty mod, with nothing added. You can fork [this blank mod](https://anymod.com/mod/llaba) if desired.
+Start with an empty mod, with nothing added. You can clone [this blank mod](https://anymod.com/mod/llaba) if desired.
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-01_njksxm.png"/>
 
 ### 2. Add a field named `content`

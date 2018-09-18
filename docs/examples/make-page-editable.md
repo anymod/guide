@@ -15,7 +15,7 @@ For this example, we'll use a block of content on a simple web page:
 
 ### 2. Add a mod to your project
 
-In the Anymod dashboard, click **New Mod** and then choose the "Content block" mod. Or you can fork the content block mod [here](https://anymod.com/mod/errba).
+In the Anymod dashboard, click **New Mod** and then choose the "Content block" mod. Or you can clone the content block mod [here](https://anymod.com/mod/errba).
 
 ::: tip
 We're using a simple "Content block" mod for this example, but you can use & customize any other mod to have editable content too. See the [mod library](https://anymod.com/library) for more options.

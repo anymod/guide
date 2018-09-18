@@ -6,7 +6,7 @@ In this example, we'll add a custom stylesheet to a mod.
 
 ### 1. Start with a blank mod
 
-Create or fork a [blank mod](https://anymod.com/mod/llaba) to get started.
+Create or clone a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 ### 2. Add some HTML markup
 

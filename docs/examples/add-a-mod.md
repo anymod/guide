@@ -1,11 +1,7 @@
 ---
-title: Add a mod to your page [TODO]
+title: Add a mod to your page
 lang: en-US
 ---
-
-::: danger
-TODO get this working
-:::
 
 In this example, we'll add a mod to an empty web page.
 
@@ -37,7 +33,7 @@ To add a mod to the page, first find a mod that you like (the [Library](https://
 
 For this example, we'll add an animated timeline, which you can find [here](https://anymod.com/mod/nmnko?v=30)
 
-Click the **Fork** button to copy the mod into your project.
+Click the **Clone** button to copy the mod into your project.
 
 ### 3. Add the mod to your page
 
@@ -55,14 +51,14 @@ Our updated HTML file now looks like this:
   <head>
     <title>Basic web page</title>
 
-    <!-- Anymod script -->
+    <!-- Anymod -->
     <script id="Anymod-script">
       (function (m,o,d,u,l,a,r,i,z,e) {
         u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
         e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
       })('Anymod','865732','https://cdn.anymod.com/v2',window,document,'script');
     </script>
-    <!-- /Anymod script -->
+    <!-- /Anymod -->
   </head>
 
   <body>

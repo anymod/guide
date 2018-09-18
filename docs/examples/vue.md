@@ -6,12 +6,12 @@ lang: en-US
 In this example, we'll build a simple mod with Vue.js.
 
 ::: tip
-There is a [Vue mod](https://anymod.com/mod/rdrdd) that you can fork to start quickly. This example shows how to build up this Vue mod from scratch.
+There is a [Vue mod](https://anymod.com/mod/rdrdd) that you can clone to start quickly. This example shows how to build up this Vue mod from scratch.
 :::
 
 ### 1. Start with a blank mod
 
-Create or fork a [blank mod](https://anymod.com/mod/llaba) to get started.
+Create or clone a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 ### 2. Add the Vue.js script
 

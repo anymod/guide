@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{166:function(n,t,e){"use strict";e.r(t);var o={data:function(){return{foo:"bar"}}},s=e(0),i=Object(s.a)(o,function(){var n=this.$createElement;return(this._self._c||n)("section",[this._v("\n  Hello, Demo! "+this._s(this.foo)+"\n")])},[],!1,null,null,null);i.options.__file="demo.vue";t.default=i.exports}}]);
