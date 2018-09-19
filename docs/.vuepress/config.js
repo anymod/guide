@@ -17,14 +17,33 @@ module.exports = {
       '/guide/': [
         '/guide/quickstart.html',
         '/guide/',
-        '/guide/content-management-cms.html',
-        '/guide/form.html',
-        '/guide/image-gallery.html',
-        '/guide/navigation.html',
-        '/guide/social-media.html',
-        '/guide/custom-mods.html',
-        // ['/guide/', 'Explicit link text']
-        '/guide/community.html',
+        {
+          title: 'Mod features',
+          collapsable: false,
+          children: [
+            '/guide/content-management-cms.html',
+            '/guide/form.html',
+            '/guide/image-gallery.html',
+            '/guide/navigation.html',
+            '/guide/social-media.html',
+            '/guide/custom-mods.html',
+            // ['/guide/', 'Explicit link text']
+          ]
+        },
+        {
+          title: 'Using Anymod',
+          collapsable: false,
+          children: [
+            '/guide/usage.md',
+            '/guide/global-methods.md',
+            '/guide/react.md',
+            '/guide/vue.md',
+            '/guide/angular.md',
+            '/guide/bootstrap.md',
+            '/guide/data-only.md',
+          ]
+        },
+        '/guide/community.html'
       ],
       '/examples/': [
         ['/examples/', 'List of examples'],

@@ -3,6 +3,10 @@ title: Image galleries [TODO]
 lang: en-US
 ---
 
-## Galleries on Anymod
+# Image galleries
+
+## From the library
 
 ## Customizing a gallery
+
+## Creating from scratch

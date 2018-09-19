@@ -3,6 +3,8 @@ title: Community
 lang: en-US
 ---
 
+# Community
+
 ## Request a mod
 
 If you have an idea for a mod you’d like to see, let us know and we may build it:

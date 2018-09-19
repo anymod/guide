@@ -3,6 +3,8 @@ title: Quickstart
 lang: en-US
 ---
 
+# Quickstart
+
 ## Timeline mod
 
 Add a timeline mod to your web page:

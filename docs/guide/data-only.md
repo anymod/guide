@@ -1,8 +1,8 @@
 ---
-title: Data-only [TODO]
+title: Data-only API [TODO]
 lang: en-US
 ---
 
-[TODO]
+# Data-only API
 
 ## Use /mod and /mods instead of /component and /components

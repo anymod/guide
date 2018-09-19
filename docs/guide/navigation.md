@@ -1,8 +1,10 @@
 ---
-title: Navigation mods [TODO]
+title: Navigation [TODO]
 lang: en-US
 ---
 
-## Reusable elements
+# Navigation
+
+## Reusable navs
 
 ## Customizing a navbar
