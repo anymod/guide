@@ -39,7 +39,7 @@ lang: en-US
 | [Image manipulation](/examples/build-image.html) | Use Anymod's `buildImage` function to manipulate images |
 | [Right-size image](/examples/right-size-image.html) | Change image dimensions based on the screen size of the device viewing your page |
 
-### External services
+### External services [TODO]
 
 | Example | Description |
 |:------------- |:------------- |

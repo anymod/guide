@@ -7,24 +7,57 @@ lang: en-US
 
 Anymod lets you easily add features to any website or web app.
 
-[Content Management (CMS)](/guide/content-management-cms.html) &middot; [Forms](/guide/form.html) &middot; [Image galleries](/guide/image-gallery.html) &middot; [Navigation](/guide/navigation.html) &middot; [Social media](/guide/social-media.html) &middot; [Custom](/guide/custom-mods.html)
+- [Content Management (CMS)](/guide/content-management-cms.html)
+- [Forms](/guide/form.html)
+- [Image galleries](/guide/image-gallery.html)
+- [Navigation](/guide/navigation.html)
+- [Social media](/guide/social-media.html)
+- [Custom features & more](/guide/custom-mods.html)
+
+**Mods** are modular features that you can add from the [library](https://anymod.com/library) and then extend, share, and customize. They make building website features fast, simple, and repeatable.
+
+Mods are designed to work with **ANY** web technology, from plain HTML to WordPress, PHP, Ruby on Rails, Node.js & more, and with the latest frameworks like React & Vue.js or with classics like jQuery. Mods work on both new & existing websites.
+
+This approach gives you freedom to work across tech stacks, and to build or host with whatever tools you want.
 
 ::: tip
 Check out the [Quickstart](/guide/quickstart.html) to try Anymod without an account.
 :::
 
-<!-- {{ $page }} -->
+## Fast loads
 
-## Fast
+Mods load fast. Page speed is a top priority at Anymod, and we have dedicated significant resources to building a fast, global delivery network for mods.
 
-## Secure
+A basic page with 15 mods will load all of its mod data in single request taking 10-30ms.
 
-## Library of mods
+Mods load in parallel with DOM parsing and loading of other non-Anymod assets. The net result is little or no impact on page load time, and, in many cases, adding Anymod will even speed up a page.
 
-## Compatible
+## Tools for non-developers
 
-Anymod runs in all the major browsers
+Mods have a built-in WYSIWYG content editor that lets non-developers update text & images directly from their own live web page.
+
+No coding skills are needed to use the content editor, and a live preview gives instant feedback. See the [content management](/guide/content-management-cms.html) section for more.
+
+## Tools for developers
+
+Mods come with a host of modern, cloud-based tools that work automatically and without complex setup.
+
+The mod editor includes automatic pre-compilation tools such as:
+
+- [Handlebars](/examples/handlebars.html) (HTML)
+- [SCSS](/examples/scss.html) (CSS)
+- [ES6](/examples/es6.html), [JSX](/examples/jsx.html), & [TypeScript](/examples/typescript.html) (JavaScript)
+
+along with tools for quickly adding external CSS & JS assets, creating and referencing documentation, and more. Saving a mod automatically refreshes its preview, and syntax errors are automatically caught and highlighted in real-time.
+
+This all results in a fast, repeatable workflow across all of your mods and projects.
+
+## Browser & search compatible [TODO]
+
+Anymod runs in all major browsers beyond IE8. This includes Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
 
 Indexed by Google
 
-Anymod does not support IE8 and below, because it uses ECMAScript 5 features that are un-shimmable in IE8. However it supports all ECMAScript 5 compliant browsers.
+## Library of mods [TODO]
+
+
