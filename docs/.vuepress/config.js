@@ -2,7 +2,8 @@ module.exports = {
   title: 'Anymod Guide',
   description: 'Documentation & Examples for Anymod',
   head: [
-    ['link', { rel: 'icon', href: 'https://res.cloudinary.com/component/image/upload/v1519346560/mod_logo_120px.png' }]
+    ['link', { rel: 'icon', href: 'https://res.cloudinary.com/component/image/upload/v1519346560/mod_logo_120px.png' }],
+    // ['script', { id: 'Anymod-script' }, "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('Anymod','865732','https://cdn.anymod.com/v2',window,document,'script');"]
   ],
   themeConfig: {
     nav: [
@@ -13,10 +14,15 @@ module.exports = {
     ],
     sidebar: {
       '/guide/': [
-        '/',
-        '/guide/global-methods.html',
-        '/examples/markdown.html',
-        ['/guide/', 'Explicit link text']
+        '/guide/quickstart.html',
+        '/guide/',
+        '/guide/content-management-cms.html',
+        '/guide/form.html',
+        '/guide/image-gallery.html',
+        '/guide/navigation.html',
+        '/guide/social-media.html',
+        '/guide/custom-mods.html',
+        // ['/guide/', 'Explicit link text']
       ],
       '/examples/': [
         ['/examples/', 'List of examples'],

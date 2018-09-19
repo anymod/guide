@@ -1,5 +1,5 @@
 ---
-title: Global methods
+title: Global methods [TODO]
 lang: en-US
 ---
 
