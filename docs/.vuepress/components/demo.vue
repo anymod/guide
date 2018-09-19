@@ -1,15 +1,5 @@
 <template>
   <section>
-    Hello, Demo! {{ foo }}
+    Hello, Demo!
   </section>
 </template>
-
-<script>
-  export default {
-    data() {
-      return {
-        foo: 'bar'
-      }
-    }
-  }
-</script>

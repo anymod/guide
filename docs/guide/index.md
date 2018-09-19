@@ -1,5 +1,5 @@
 ---
-title: Introduction [TODO]
+title: Introduction
 lang: en-US
 ---
 
@@ -52,12 +52,16 @@ along with tools for quickly adding external CSS & JS assets, creating and refer
 
 This all results in a fast, repeatable workflow across all of your mods and projects.
 
-## Browser & search compatible [TODO]
+## Browser & search compatible
 
-Anymod runs in all major browsers beyond IE8. This includes Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
+Mods work in all major browsers beyond IE8. This includes Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
 
-Indexed by Google
+Mods are fully indexed by Google and appear in search results alongside other page content. Bing has announced its rollout of indexing for JavaScript, but search results on Bing may not include mod content at this time.  Yahoo uses both Google and Bing for its search results, while Ask.com also fully indexes mod content like Google.
 
-## Library of mods [TODO]
+## Library of mods
 
+Anymod offers an open-source [library](https://anymod.com/library) of mods to support your projects. You can use these mods as-is in any project you choose, or you can clone, edit, and reuse library mods wherever you need them.
 
+Mods in our library have been screened for quality, browser compatibility, and security. We publish a weekly overview of new mods called [Module Monday](/module-monday/).
+
+Our goal at Anymod is to make it easy to add rich features to any website or web app. We are always adding new mods to our library, and we love working closely with developers and teams to help build a better Internet.

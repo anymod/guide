@@ -31,7 +31,7 @@ Opening this file in our browser, the page looks like this:
 
 To add a mod to the page, first find a mod that you like (the [Library](https://anymod.com/library) is a good place to look!).
 
-For this example, we'll add an animated timeline, which you can find [here](https://anymod.com/mod/nmnko?v=30)
+For this example, we'll add an animated timeline, which you can find [here](https://anymod.com/mod/oollr?v=30)
 
 Click the **Clone** button to copy the mod into your project.
 
@@ -56,7 +56,7 @@ Our updated HTML file now looks like this:
       (function (m,o,d,u,l,a,r,i,z,e) {
         u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
         e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
-      })('Anymod','865732','https://cdn.anymod.com/v2',window,document,'script');
+      })('Anymod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script');
     </script>
     <!-- /Anymod -->
   </head>
@@ -65,7 +65,7 @@ Our updated HTML file now looks like this:
     <h1>Hello, World!</h2>
     
     <!-- Mod tag -->
-    <div id="anymod-nmnko"></div>
+    <div id="anymod-oollr"></div>
     <!-- /Mod tag -->
   </body>
 
