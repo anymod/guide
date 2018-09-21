@@ -75,6 +75,11 @@ module.exports = {
         '/examples/recaptcha.html',
       ],
       '/module-monday/': [
+        '/module-monday/13.html',
+        '/module-monday/12.html',
+        '/module-monday/11.html',
+        '/module-monday/10.html',
+        '/module-monday/09.html',
         '/module-monday/08.html',
         '/module-monday/07.html',
         '/module-monday/06.html',
