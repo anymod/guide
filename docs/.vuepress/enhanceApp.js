@@ -4,7 +4,7 @@ export default ({
   router,   // the router instance for the app
   siteData  // site metadata
 }) => {
-  if (!window.Anymod) return
+  if (!Anymod) return
   const pagesWithSandbox = [
     '/guide/quickstart.html',
     '/live-demos/localhost.html'
