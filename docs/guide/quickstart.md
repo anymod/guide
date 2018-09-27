@@ -2,6 +2,7 @@
 title: Quickstart
 lang: en-US
 ---
+<sandbox/>
 
 # Quickstart
 
@@ -31,12 +32,12 @@ Add a timeline mod to your web page:
 3. When you load your page, a timeline mod appears:
 
 <!-- Timeline demo v2 [Sandbox] -->
-<mod mod-key="lmbrm"/>
+<mod :mod-key="'lmbrm'"/>
 
 You have just added your very first mod!
 
 ::: tip
-Click the pencil <sandbox-launcher/> on the right, then click the timeline mod above to edit its content.
+Click the pencil <sandbox-inline/> on the right, then click the timeline mod above to edit its content.
 
 You can clone this mod into your own project [here](https://anymod.com/mod/oollr?v=20) and make live edits, or simply view it in a [jsfiddle](https://jsfiddle.net/component/pv1zuycw/).
 :::

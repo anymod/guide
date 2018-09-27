@@ -1,5 +1,5 @@
 <template>
-  <span class="sandbox-launcher" @click="launch">
+  <span class="sandbox-inline" @click="launch">
     <i class="material-icons">edit</i>
   </span>
 </template>
@@ -8,14 +8,14 @@
   export default {
     methods: {
       launch() {
-        Anymod.Event && Anymod.Event.emit('sandbox:overlay:open')
+        // Anymod.Event && Anymod.Event.emit('sandbox:overlay:open')
       }
     }
   }
 </script>
 
 <style>
-  .sandbox-launcher {
+  .sandbox-inline {
     cursor: pointer;
     display: inline-block;
     box-shadow: 0 0 5px #fff;
@@ -34,7 +34,7 @@
     vertical-align: middle;
     line-height: 20px;
   }
-  .sandbox-launcher:hover {
+  .sandbox-inline:hover {
     box-shadow: 0 0 10px #009bff;
   }
 </style>

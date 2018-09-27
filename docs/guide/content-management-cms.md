@@ -14,20 +14,20 @@ You can make your pages editable by moving static HTML content into a mod, which
 When you add a mod with content to your page, it will look normal to visitors. For users on your team however, a pencil icon will appear on the right side of the page:
 
 <!-- [Sandbox] Image CMS-01 -->
-<mod mod-key="bbdbd"/>
+<mod :mod-key="'bbdbd'"/>
 
 Clicking this pencil icon allows you or your team to select mods to edit:
 
 <!-- [Sandbox] Image CMS-02 -->
-<mod mod-key="rbnba"/>
+<mod :mod-key="'rbnba'"/>
 
 Selecting a mod opens its content editor, which can be used to make live, realtime edits to content:
 
 <!-- [Sandbox] Image CMS-03 -->
-<mod mod-key="ooloa"/>
+<mod :mod-key="'ooloa'"/>
 
 ::: tip
-The three images above are actually mods: click the pencil <sandbox-launcher/> on the right, then click an image to edit it.
+The three images above are actually mods: click the pencil <sandbox-inline/> on the right, then click an image to edit it.
 :::
 
 ## Basic content
@@ -75,7 +75,7 @@ The following example is a [team page mod](https://anymod.com/mod/kokla), with t
 <div id="anymod-kokla"></div>
 ```
 
-<mod mod-key="kokla"/>
+<mod :mod-key="'kokla'"/>
 
 This mod is editable just like the basic content, with the on-page editor or via the Anymod dashboard:
 
