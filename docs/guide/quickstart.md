@@ -26,6 +26,7 @@ Add a timeline mod to your web page:
 2. Paste the mod tag inside the `<body>` of your HTML, wherever you want the mod to show:
 
 ```html
+<!-- Timeline demo -->
 <div id="anymod-oollr"></div>
 ```
 
@@ -63,6 +64,7 @@ The HTML for the above example looks like the following:
   </head>
 
   <body>
+    <!-- Timeline demo -->
     <div id="anymod-oollr"></div>
   </body>
 

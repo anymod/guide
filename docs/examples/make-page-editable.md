@@ -58,6 +58,7 @@ Replace:
 with
 
 ```html
+<!-- Example content -->
 <div id="anymod-lrarn"></div>
 ```
 

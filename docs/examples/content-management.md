@@ -50,6 +50,7 @@ Click the **Add to website** button and follow the instructions.  If you have no
 This enables Anymod on the page.  Now paste the mod's tag in your page's HTML wherever you want your mod to appear:
 
 ```html
+<!-- Lorem ipsum text -->
 <div id="anymod-nmnmo"></div>
 ```
 
