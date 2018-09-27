@@ -61,7 +61,7 @@ Following the suggestion, we can paste the asset tags into the document's `<head
   <!-- Anymod script -->
   <script id="Anymod-script">
     (function (m,o,d,u,l,a,r,i,z,e) {
-      u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
+      u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
       e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
     })('Anymod','87M478','https://cdn.anymod.com/v2',window,document,'script');
   </script>

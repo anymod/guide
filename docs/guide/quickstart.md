@@ -15,7 +15,7 @@ Add a timeline mod to your web page:
 <!-- Anymod -->
 <script id="Anymod-script">
   (function (m,o,d,u,l,a,r,i,z,e) {
-    u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
+    u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
     e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
   })('Anymod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script');
 </script>
@@ -30,14 +30,15 @@ Add a timeline mod to your web page:
 
 3. When you load your page, a timeline mod appears:
 
-<mod :mod-key="'oollr'"/>
+<!-- Timeline demo v2 [Sandbox] -->
+<mod mod-key="lmbrm"/>
 
 You have just added your very first mod!
 
 ::: tip
-If this was your mod, you could edit its text, dates, icons, colors, and links, and add or remove events easily. 
+Click the pencil <sandbox-launcher/> on the right, then click the timeline mod above to edit its content.
 
-You can clone this mod into your own project [here](https://anymod.com/mod/oollr?v=20) and make edits, or simply view it in a [jsfiddle](https://jsfiddle.net/component/pv1zuycw/).
+You can clone this mod into your own project [here](https://anymod.com/mod/oollr?v=20) and make live edits, or simply view it in a [jsfiddle](https://jsfiddle.net/component/pv1zuycw/).
 :::
 
 ## HTML
@@ -53,7 +54,7 @@ The HTML for the above example looks like the following:
     <!-- Anymod -->
     <script id="Anymod-script">
       (function (m,o,d,u,l,a,r,i,z,e) {
-        u[m]={Project:o,opts:r};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
+        u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
         e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
       })('Anymod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script');
     </script>

@@ -1,5 +1,5 @@
 <!-- Lorem ipsum text -->
-<mod :mod-key="'nbdal'"/>
+<mod mod-key="nbdal"/>
 
 <br>
 <br>
