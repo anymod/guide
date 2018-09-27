@@ -6,7 +6,7 @@
   export default {
     props: ['modKey'],
     mounted() {
-      if (window.Anymod) Anymod.render()
+      if (window.Anymod) Anymod.ready(() => Anymod.render())
     }
   }
 </script>
