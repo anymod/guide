@@ -1,12 +1,62 @@
 ---
-title: Forms [TODO]
+title: Forms
 lang: en-US
 ---
 
 # Forms
 
+## How it works
+
+Anymod has everything you need to add forms without your own server-side code.
+
+You can collect form responses in the Anymod dashboard or send the responses anywhere you choose, like MailChimp or another external service.
+
 ## From the library
+
+Anymod has dozens of forms to choose from in the [library](https://anymod.com/library?tag=forms). These forms will work automatically, unless they specifically mention using with an external service like MailChimp.
+
+To add a form, choose from the library and click the "Clone" button in the top corner:
+
+<img src="https://res.cloudinary.com/component/image/upload/v1538094266/form-01_pax5gh.png">
+
+Next click "Add to webpage" in the top corner, then follow the installation instructions:
+
+<img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
+
+Adding the Anymod script and the mod tag to your page will cause the form to appear:
+
+```html
+<!-- Contact form -->
+<div id="anymod-mkbar"></div>
+```
+<!-- Elegant contact form Form-01 -->
+<mod mod-key="dmamn"/>
+
+::: tip
+This is a live contact form. Responses go to a project dashboard as described below.
+:::
 
 ## Built-in responses
 
+When a visitor submits one of your forms, their response shows in your dashboard automatically, and by default you also receive an email notifying you of the form response.
+
+<img src="https://res.cloudinary.com/component/image/upload/v1538094951/form-03_qnjbou.png">
+
 ## External services
+
+You can connect your mod forms with any external service you want, so that your form data is submitted to that service.
+
+For MailChimp subscription forms, you can use one of the ready-to-use mods like [this one](https://anymod.com/mod/rdddb)
+
+```html
+<!-- MailChimp signup section -->
+<div id="anymod-rdddb"></div>
+```
+<mod mod-key="mkbkd"/>
+
+::: warning
+This form does not work out of the box because it requires a MailChimp API key.
+:::
+
+To learn more about building custom forms to interact with external services, see the [Axios](/examples/axios.html), [MailChimp](/examples/mailchimp.html), and [reCAPTCHA](/examples/recaptcha.html) examples.
+

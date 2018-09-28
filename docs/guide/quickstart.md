@@ -32,8 +32,10 @@ Add a timeline mod to your web page:
 
 3. When you load your page, a timeline mod appears:
 
-<!-- Timeline demo v2 [Sandbox] -->
-<mod :mod-key="'lmbrm'"/>
+<div class="mod-container">
+  <!-- Timeline demo v2 [Sandbox] -->
+  <mod :mod-key="'lmbrm'"/>
+</div>
 
 You have just added your very first mod!
 

@@ -1,5 +1,5 @@
 ---
-title: Content management (CMS) [TODO]
+title: Content management (CMS)
 lang: en-US
 ---
 <sandbox/>
@@ -14,18 +14,24 @@ You can make your pages editable by moving static HTML content into a mod, which
 
 When you add a mod with content to your page, it will look normal to visitors. For users on your team however, a pencil icon will appear on the right side of the page:
 
-<!-- [Sandbox] Image CMS-01 -->
-<mod :mod-key="'bbdbd'"/>
+<div class="mod-container">
+  <!-- [Sandbox] Image CMS-01 -->
+  <mod mod-key="bbdbd"/>
+</div>
 
 Clicking this pencil icon allows you or your team to select mods to edit:
 
-<!-- [Sandbox] Image CMS-02 -->
-<mod :mod-key="'rbnba'"/>
+<div class="mod-container">
+  <!-- [Sandbox] Image CMS-02 -->
+  <mod mod-key="rbnba"/>
+</div>
 
 Selecting a mod opens its content editor, which can be used to make live, realtime edits to content:
 
-<!-- [Sandbox] Image CMS-03 -->
-<mod :mod-key="'ooloa'"/>
+<div class="mod-container">
+  <!-- [Sandbox] Image CMS-03 -->
+  <mod mod-key="ooloa"/>
+</div>
 
 ::: tip
 The three images above are actually mods: click the pencil <sandbox-inline/> on the right, then click an image to edit it.
@@ -35,12 +41,10 @@ The three images above are actually mods: click the pencil <sandbox-inline/> on 
 
 If you have text on your page that you want another user to be able to edit easily:
 
-<blockquote style="color:#333">
-  <h3>Lorem ipsum dolor</h3>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet ex tellus, eu elementum lorem euismod quis.
-  </p>
-</blockquote>
+<div class="mod-container">
+  <!-- [Sandbox] Basic content example CMS-04 -->
+  <mod mod-key="akbkr"/>
+</div>
 
 You can create or clone a [basic mod with content](https://anymod.com/mod/nbdal/content) and paste your content into the mod's content area.
 
@@ -60,6 +64,8 @@ Then replace the HTML on your page with the mod HTML:
 Now when your page loads, content will be displayed as before but will be editable.  Compare the [before](/live-demos/cms-before.html) and [after](/live-demos/cms-after.html) live demo to see the differences in content and code.
 
 ::: tip
+The textbox above is actually a mod: click the pencil <sandbox-inline/> on the right, then click the text box to edit it.
+
 For more examples of how to make the content on your page editable, see [Content management examples](/examples/#content-management).
 :::
 
@@ -84,10 +90,17 @@ This mod is editable just like the basic content, with the on-page editor or via
 
 Team members can be added and removed easily, or users can update their photos, bios, links, and more.
 
-[TODO] Can also edit the code
+::: tip
+Click the pencil <sandbox-inline/> on the right, then click the team mod above to make edits.
+:::
+
+
+## Custom code
+
+In addition to editing any mod's content, you can also optionally edit its code. This gives you full flexibility to extend mods to fit your exact needs.
 
 <img src="https://res.cloudinary.com/component/image/upload/v1537498566/cms-07_qgxqlu.png">
 
-## Drafts
-
-## Links
+::: tip
+See the team mod's [code](https://anymod.com/mod/kokla) or read more about [customizing mods](/guide/custom-mods.html).
+:::
