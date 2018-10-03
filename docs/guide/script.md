@@ -36,7 +36,7 @@ By default, Anymod loads the first 3 mods on a page first, then loads any remain
 ### Example 1: hide on-page editor and prioritize first 2 mods
 
 ```js
-{ toolkit: false, priority: 2 }
+... document,'script',{ toolkit: false, priority: 2 });
 ```
 
 - Prevents the on-page editor pencil from showing when you or your team view the page.
@@ -55,7 +55,7 @@ this configuration (`priority: 2`) will load `mod01` and `mod02` before the othe
 ### Example 2: prioritize specific mods
 
 ```js
-{ priority: ['mod02','mod04'] }
+... document,'script',{ priority: ['mod02','mod04'] });
 ```
 
 - Loads the mods `mod02` and `mod04` before all others. Given the following mods
