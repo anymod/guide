@@ -13,3 +13,4 @@ The above gallery uses the following HTML:
 <div id="anymod-onakb"></div>
 ```
 
+<sandbox/>

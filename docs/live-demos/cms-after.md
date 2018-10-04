@@ -12,3 +12,5 @@ The above content uses the following HTML:
 <!-- Lorem ipsum text -->
 <div id="anymod-nbdal"></div>
 ```
+
+<sandbox/>
