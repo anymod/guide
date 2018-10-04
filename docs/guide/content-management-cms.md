@@ -75,11 +75,11 @@ Anymod can do much more than make basic text editable. You can build (or clone) 
 
 Essentially any content or feature on a website can be made editable with Anymod.
 
-The following example is a [team page mod](https://anymod.com/mod/kokla), with the live mod added to this page:
+The following example is a [team page mod](https://anymod.com/mod/dmkdn), with the live mod added to this page:
 
 ```html
 <!-- Team member cards -->
-<div id="anymod-kokla"></div>
+<div id="anymod-dmkdn"></div>
 ```
 
 <mod :mod-key="'kokla'"/>
@@ -102,5 +102,5 @@ In addition to editing any mod's content, you can also optionally edit its code.
 <img src="https://res.cloudinary.com/component/image/upload/v1537498566/cms-07_qgxqlu.png">
 
 ::: tip
-See the team mod's [code](https://anymod.com/mod/kokla) or read more about [customizing mods](/guide/custom-mods.html).
+See the team mod's [code](https://anymod.com/mod/dmkdn) or read more about [customizing mods](/guide/custom-mods.html).
 :::

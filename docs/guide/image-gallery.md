@@ -1,5 +1,5 @@
 ---
-title: Image galleries [TODO]
+title: Image galleries
 lang: en-US
 ---
 <sandbox/>
@@ -65,7 +65,33 @@ Click the pencil <sandbox-inline/> on the right, then click the gallery mod abov
 
 ## Customizing a gallery
 
-<!-- [Sandbox] Image Gallery-05 -->
-<!-- <mod mod-key="mklbd"/> -->
+In addition to editing a gallery's content, you can also optionally edit its code. This gives you full flexibility to extend mods to fit your exact needs.
 
-## Creating from scratch
+For example, we can modify the above gallery to add some CSS rules:
+
+```css
+max-width: 600px;
+margin: 0 auto;
+.box {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+  img {
+    padding: 10px;
+  }
+}
+```
+
+And we get the same gallery feature with a different look:
+
+<!-- [Sandbox] Image Gallery-05 -->
+<mod mod-key="mklbd"/>
+
+In this way, you can choose a gallery that fits your needs or comes close, then make any edits you need to the content or styling to get exactly what you want.
+
+::: tip
+See the gallery [before](https://anymod.com/mod/onakb) and [after](https://anymod.com/mod/mklad) the edits, or read more about [customizing mods](/guide/custom-mods.html).
+:::
+
+<!-- ## Creating from scratch -->
