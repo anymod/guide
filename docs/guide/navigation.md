@@ -79,6 +79,6 @@ Say we want to customize the `Bootstrap navbar` mod above. We can do so by addin
 <mod mod-key="kodmb"/>
 
 ::: tip
-Compare the changes with the [before](https://anymod.com/mod/oorba?v=20) and [after](https://anymod.com/mod/kodmb?v=20).
+Compare the changes: [before](https://anymod.com/mod/oorba?v=20) and [after](https://anymod.com/mod/kodmb?v=20).
 :::
 
