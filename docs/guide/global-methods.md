@@ -7,7 +7,9 @@ lang: en-US
 
 `Anymod` is a global JavaScript object that provides access to all of the mods on a page along with several useful utility functions.
 
-## Anymod.ready()
+## Anymod.ready
+
+**`Anymod.ready(callback)`**
 
 Executes a callback once the Anymod script has finished loading.
 
@@ -35,7 +37,9 @@ Hello again!
 You don't need to use `Anymod.ready()` in a mod's own code: it will already be ready.
 :::
 
-## Anymod.render()
+## Anymod.render
+
+**`Anymod.render(callback) -> [promise]`**
 
 Renders mod tags that were added to the page after Anymod's initial run. Can be used with a callback or a promise.
 
@@ -88,6 +92,8 @@ Mods are rendered automatically when the Anymod script loads. However, you may n
 
 ## Anymod( key )
 
+**`Anymod(key)`**
+
 Returns the data object for a given mod.
 
 #### Usage
@@ -120,7 +126,9 @@ Anymod('abcde').data.message
 // --> "Hello, world!"
 ```
 
-## Anymod.buildImage( image, options )
+## Anymod.buildImage
+
+**`Anymod.buildImage(image, { options })`**
 
 Resizes and crops an `image` based on `options` inputs.
 
@@ -181,7 +189,9 @@ var newImage = Anymod.buildImage(mod.data.image, { w: 150, h: 150, c: 'crop', g:
 See the [image manipulation example](/examples/image-manipulation.html) for more.
 :::
 
-## Anymod.loadScript( url, callback, options )
+## Anymod.loadScript
+
+**`Anymod.loadScript(url, callback, { options })`**
 
 Loads a script tag into the `<body>` element as denoted by `url`. Executes an optional `callback` function once the script is loaded.
 
@@ -205,7 +215,9 @@ Anymod.loadScript('https://www.google.com/recaptcha/api.js', function () {
 You can add scripts directly to a mod without invoking `loadScript`. See [custom scripts](/examples/custom-scripts.html) for more.
 :::
 
-## Anymod.loadStylesheet( url, callback, options )
+## Anymod.loadStylesheet
+
+**`Anymod.loadStylesheet(url, callback, { options })`**
 
 Loads a stylesheet tag into the `<head>` element as denoted by `url`. Executes an optional `callback` function once the stylesheet is loaded.
 
