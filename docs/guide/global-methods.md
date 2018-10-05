@@ -15,7 +15,39 @@ You don't need to use `Anymod.ready` in a mod's own code: it will already be rea
 
 ## Anymod.render [TODO]
 
-## Anymod( key ) [TODO]
+## Anymod( key )
+
+Returns the data object for a given mod.
+
+#### Usage
+
+```js
+Anymod('abcde')
+```
+
+#### Result
+
+```json
+{
+  key: "abcde", 
+  data: {
+    message: "Hello, world!"
+    items: []
+  }, 
+  html: "<div>Hello, world!</div>",
+  css: "[abcde]{background:red;padding:10px...}",
+  js: "console.log('hello');",
+  cssAssets: ["https://cdn.example.com/stylesheet.css"],
+  jsAssets: []
+}
+```
+
+Similarly, you can read a specific piece of data:
+
+```js
+Anymod('abcde').data.message
+// --> "Hello, world!"
+```
 
 ## Anymod.buildImage [TODO]
 

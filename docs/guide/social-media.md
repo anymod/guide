@@ -26,8 +26,10 @@ Anymod has dozens of mods for popular services, including:
 <div id="anymod-mlbao"></div>
 ```
 
-<!-- [Sandbox] Twitter Follow button Social-01 -->
-<mod mod-key="bband"/>
+<div class="mod-container mh-50">
+  <!-- [Sandbox] Twitter Follow button Social-01 -->
+  <mod mod-key="bband"/>
+</div>
 
 ### Facebook like, post, discussion, etc 
 [See mods](https://anymod.com/library?q=facebook)
@@ -37,8 +39,10 @@ Anymod has dozens of mods for popular services, including:
 <div id="anymod-badmm"></div>
 ```
 
-<!-- [Sandbox] Facebook Like button Social-02 -->
-<mod mod-key="rbara"/>
+<div class="mod-container mh-50">
+  <!-- [Sandbox] Facebook Like button Social-02 -->
+  <mod mod-key="rbara"/>
+</div>
 
 ### GitHub follow, fork, star, etc
 [See mod](https://anymod.com/mod/aklmr?v=20)
@@ -47,9 +51,10 @@ Anymod has dozens of mods for popular services, including:
 <!-- GitHub button -->
 <div id="anymod-aklmr"></div>
 ```
-
-<!-- [Sandbox] GitHub button Social-03 -->
-<mod mod-key="oorka"/>
+<div class="mod-container mh-50">
+  <!-- [Sandbox] GitHub button Social-03 -->
+  <mod mod-key="oorka"/>
+</div>
 
 ### Pinterest board, profile, pin button, etc
 [See mods](https://anymod.com/library?q=pinterest)
@@ -59,11 +64,13 @@ Anymod has dozens of mods for popular services, including:
 <div id="anymod-badom"></div>
 ```
 
-<!-- [Sandbox] Pinterest User Profile embed -->
-<mod mod-key="dmkln"/>
-
-See even more Social Media mods in the Anymod [library](https://anymod.com/library?tag=social%20media)
+<div class="mod-container mh-50">
+  <!-- [Sandbox] Pinterest User Profile embed -->
+  <mod mod-key="dmkln"/>
+</div>
 
 ::: tip
 The mods above are editable: click the pencil <sandbox-inline/> on the right, then click to customize each widget.
+
+See even more Social Media mods in the [library](https://anymod.com/library?tag=social%20media)
 :::
