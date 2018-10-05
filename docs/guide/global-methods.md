@@ -126,6 +126,103 @@ Anymod('abcde').data.message
 // --> "Hello, world!"
 ```
 
+## Anymod.Project
+
+You can get the current project at any time with `Anymod.Project`
+
+```js
+Anymod.Project
+// -> "8PP6M2"
+```
+
+## Anymod.ApiUrl
+
+You can get the Anymod API URL with `Anymod.ApiUrl`
+
+```js
+Anymod.ApiUrl
+// -> "https://api.anymod.com/v2/"
+```
+
+## Anymod.Event
+
+Anymod comes with a built-in message bus for communication between mods or within your application. It is based on [Eev](https://github.com/chrisdavies/eev) and has three methods:
+
+- `Anymod.Event.on(eventName, callback)`
+
+  Listen for a custom event, which can be triggered by `Anymod.Event.emit`. The  `callback` will receive whatever `data` is emitted.
+
+- `Anymod.Event.off(eventName, callback)`
+
+  Remove custom event listener(s). `eventName` and `callback` must match the event as defined in `Anymod.Event.on`.
+
+- `Anymod.Event.emit(eventName, data)`
+
+  Trigger an event. Any additional arguments will be passed into the `callback` function for `Anymod.Event.on`.
+
+#### Usage
+
+```js
+function logHello (data) {
+  console.log('Hello, ' + data.name + '!')
+}
+
+// Create event listener
+Anymod.Event.on('custom:message', logHello)
+
+// Trigger event
+Anymod.Event.emit('custom:message', { name: 'everyone' })
+// -> "Hello, everyone!"
+
+// Remove event listener
+Anymod.Event.off('custom:message', logHello)
+
+// Trigger event again
+Anymod.Event.emit('custom:message', { name: 'everyone' })
+// -> Does nothing (event listener was removed with .off())
+```
+
+#### Example (on)
+
+The following [mod](https://anymod.com/mod/nbkmn) has an event **listener** added:
+
+```js
+Anymod.Event.on('updateMod', function(data) {
+  title.innerHTML = data.title
+  text.innerHTML = data.text
+})
+```
+
+<mod mod-key="nbkmn"/>
+
+Open your browser console and run the following to update the mod:
+
+```js
+Anymod.Event.emit('updateMod', { title: 'Hello, world', text: 'New text' })
+```
+
+#### Example (emit)
+
+The following [mod](https://anymod.com/mod/kodbb) has an event **emitter** added:
+
+```js
+Anymod.Event.emit('updateMod', {
+  title: titleInput.value,
+  text: textInput.value
+})
+```
+
+<mod mod-key="kodbb"/>
+
+Because it emits the `updateMod` event, this mod can communicate with the first mod that has the event listener added.
+
+Click the `Send event` button to update the first mod's text.
+
+::: tip
+View the code for the [listener](https://anymod.com/mod/nbkmn) and [emitter](https://anymod.com/mod/kodbb) mods to learn more.
+:::
+
+
 ## Anymod.buildImage
 
 **`Anymod.buildImage(image, { options })`**
