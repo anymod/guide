@@ -47,6 +47,7 @@ module.exports = {
             '/guide/react.md',
             '/guide/vue.md',
             '/guide/angular.md',
+            '/guide/angular-js.md',
             '/guide/bootstrap.md',
             '/guide/data-only.md',
           ]
