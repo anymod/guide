@@ -148,15 +148,15 @@ Anymod.ApiUrl
 
 Anymod comes with a built-in message bus for communication between mods or within your application. It is based on [Eev](https://github.com/chrisdavies/eev) and has three methods:
 
-- `Anymod.Event.on(eventName, callback)`
+- **`Anymod.Event.on(`**`eventName, callback`**`)`**
 
   Listen for a custom event, which can be triggered by `Anymod.Event.emit`. The  `callback` will receive whatever `data` is emitted.
 
-- `Anymod.Event.off(eventName, callback)`
+- **`Anymod.Event.off(`**`eventName, callback`**`)`**
 
   Remove custom event listener(s). `eventName` and `callback` must match the event as defined in `Anymod.Event.on`.
 
-- `Anymod.Event.emit(eventName, data)`
+- **`Anymod.Event.emit(`**`eventName, data`**`)`**
 
   Trigger an event. Any additional arguments will be passed into the `callback` function for `Anymod.Event.on`.
 
