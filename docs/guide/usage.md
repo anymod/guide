@@ -2,9 +2,9 @@
 title: General usage
 lang: en-US
 ---
-<sandbox/>
 
 # General usage
+<sandbox/>
 
 ## Installing a mod
 

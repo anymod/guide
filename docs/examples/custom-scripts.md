@@ -47,6 +47,10 @@ Now when our mod runs, the JavaScript will function properly, and we get a nice 
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534814117/script-02_wi7svt.png">
 
+::: tip
+See the mod from this example [here](https://anymod.com/mod/oorna)
+:::
+
 ### 4. Add script tags to your page (optional)
 
 Your mod will automatically load any external scripts when you've added the mod tag to your page.

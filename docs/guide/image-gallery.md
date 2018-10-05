@@ -2,9 +2,9 @@
 title: Image galleries
 lang: en-US
 ---
-<sandbox/>
 
 # Image galleries
+<sandbox/>
 
 ## How it works
 

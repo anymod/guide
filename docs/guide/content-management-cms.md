@@ -2,9 +2,9 @@
 title: Content management (CMS)
 lang: en-US
 ---
-<sandbox/>
 
 # Content management (CMS)
+<sandbox/>
 
 ## How it works
 

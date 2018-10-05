@@ -2,9 +2,9 @@
 title: Social media
 lang: en-US
 ---
-<sandbox/>
 
 # Social media
+<sandbox/>
 
 ## How it works
 
