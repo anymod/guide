@@ -62,7 +62,7 @@ module.exports = {
           ]
         },
         '/guide/community.html',
-        '/v1/introduction/',
+        '/guide/v1.html',
       ],
       '/examples/': [
         ['/examples/', 'List of examples'],
