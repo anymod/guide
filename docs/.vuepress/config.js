@@ -61,7 +61,8 @@ module.exports = {
             '/guide/dashboard-responses.html',
           ]
         },
-        '/guide/community.html'
+        '/guide/community.html',
+        '/v1/introduction/',
       ],
       '/examples/': [
         ['/examples/', 'List of examples'],
