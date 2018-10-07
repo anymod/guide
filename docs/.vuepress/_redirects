@@ -1,4 +1,0 @@
-# Redirect to new v1 site
-/v1/introduction/index.html  https://guide-v1.anymod.com/v1/introduction/index.html  301
-/v1/introduction/  https://guide-v1.anymod.com/v1/introduction/  301
-/v1/*  https://guide-v1.anymod.com/v1/:splat  301
