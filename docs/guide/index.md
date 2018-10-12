@@ -12,7 +12,7 @@ Anymod lets you easily add features to any website or web app.
 - [Image galleries](/guide/image-gallery.html)
 - [Navigation](/guide/navigation.html)
 - [Social media](/guide/social-media.html)
-- [Custom features & more](/guide/custom-mods.html)
+<!-- - [Custom features & more](/guide/custom-mods.html) // TODO -->
 
 **Mods** are modular features that you can add from the [library](https://anymod.com/library) and then extend, share, and customize, or create from scratch. They make building website features fast, simple, and repeatable.
 

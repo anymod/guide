@@ -6,10 +6,10 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Material+Icons' }],
     /* Production scripts */
     ['script', { id: 'Anymod-script' }, "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('Anymod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script', { toolkit: false });"],
-    ['script', { src: 'https://cdn.anymod.com/anymod.com.sandbox.js' }],
+    // ['script', { src: 'https://cdn.anymod.com/anymod.com.sandbox.js' }],
     /* Local scripts */
     // ['script', { id: 'Anymod-script' }, "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=['http://localhost:5000/v2/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('Anymod','8PP6M2','http://localhost:4000/v2',window,document,'script', { toolkit: false });"],
-    // ['script', { src: 'http://localhost:4000/anymod.com.sandbox.js' }],
+    ['script', { src: 'http://localhost:4000/anymod.com.sandbox.js' }],
     /* Scripts for mods */
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' }],
   ],
@@ -33,7 +33,7 @@ module.exports = {
             '/guide/image-gallery.html',
             '/guide/navigation.html',
             '/guide/social-media.html',
-            '/guide/custom-mods.html',
+            // '/guide/custom-mods.html', // TODO
             // ['/guide/', 'Explicit link text']
           ]
         },
@@ -52,15 +52,16 @@ module.exports = {
             '/guide/data-only.md',
           ]
         },
-        {
-          title: 'Anymod dashboard',
-          collapsable: false,
-          children: [
-            '/guide/dashboard-pages.html',
-            '/guide/dashboard-drafts.html',
-            '/guide/dashboard-responses.html',
-          ]
-        },
+        // TODO
+        // {
+        //   title: 'Anymod dashboard',
+        //   collapsable: false,
+        //   children: [
+        //     '/guide/dashboard-pages.html',
+        //     '/guide/dashboard-drafts.html',
+        //     '/guide/dashboard-responses.html',
+        //   ]
+        // },
         '/guide/community.html',
         '/guide/v1.html',
       ],
@@ -86,14 +87,15 @@ module.exports = {
         '/examples/optimize-assets.html',
         '/examples/image-manipulation.html',
         '/examples/right-size-image.html',
-        // External Services
-        '/examples/axios.html',
-        '/examples/mailchimp.html',
-        '/examples/cloudinary.html',
-        '/examples/google-maps.html',
-        '/examples/recaptcha.html',
+        // External Services [TODO]
+        // '/examples/axios.html',
+        // '/examples/mailchimp.html',
+        // '/examples/cloudinary.html',
+        // '/examples/google-maps.html',
+        // '/examples/recaptcha.html',
       ],
       '/module-monday/': [
+        '/module-monday/16.html',
         '/module-monday/15.html',
         '/module-monday/14.html',
         '/module-monday/13.html',

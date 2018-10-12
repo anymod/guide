@@ -39,7 +39,7 @@ lang: en-US
 | [Image manipulation](/examples/build-image.html) | Use Anymod's `buildImage` function to manipulate images |
 | [Right-size image](/examples/right-size-image.html) | Change image dimensions based on the screen size of the device viewing your page |
 
-### External services [TODO]
+<!-- ### External services [TODO]
 
 | Example | Description |
 |:------------- |:------------- |
@@ -47,7 +47,7 @@ lang: en-US
 | [Mailchimp](/examples/mailchimp.html) | Create a signup form with Mailchimp |
 | [Cloudinary](/examples/cloudinary.html) | Create a mod for uploading images to Cloudinary |
 | [Google Maps](/examples/google-maps.html) | Display and manipulate a Google Map in your mod |
-| [reCAPTCHA](/examples/recaptcha.html) | Add reCAPTCHA to a form |
+| [reCAPTCHA](/examples/recaptcha.html) | Add reCAPTCHA to a form | -->
 
 <style>
   @media (min-width: 480px) {
