@@ -95,6 +95,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       '/module-monday/': [
+        '/module-monday/18.html',
         '/module-monday/17.html',
         '/module-monday/16.html',
         '/module-monday/15.html',
@@ -116,10 +117,10 @@ module.exports = {
     },
     lastUpdated: 'Last Updated', // string | boolean
     // https://vuepress.vuejs.org/default-theme-config/#algolia-search
-    // algolia: {
-    //   apiKey: '1869e5a6fd56b1d3d72d2e23acd8b900',
-    //   indexName: 'anymod'
-    // },
+    algolia: {
+      apiKey: '1869e5a6fd56b1d3d72d2e23acd8b900',
+      indexName: 'anymod'
+    },
 
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'anymod/guide',
