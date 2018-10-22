@@ -116,10 +116,10 @@ module.exports = {
     },
     lastUpdated: 'Last Updated', // string | boolean
     // https://vuepress.vuejs.org/default-theme-config/#algolia-search
-    // algolia: {
-    //   apiKey: '<API_KEY>',
-    //   indexName: '<INDEX_NAME>'
-    // }
+    algolia: {
+      apiKey: '1869e5a6fd56b1d3d72d2e23acd8b900',
+      indexName: 'anymod'
+    },
 
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'anymod/guide',
