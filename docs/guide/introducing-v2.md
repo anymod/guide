@@ -129,24 +129,7 @@ Previously, the `Anymod` object was also namespaced to `Component`.  For example
 
 ## Examples
 
-Given a mod with the following fields:
-
-| Field name| Value | Type |
-|:-----------|:-----|:------|
-| message  | Hello, World! | Simple text |
-| myHtml   | &lt;p&gt;I'm a P tag&lt;/p&gt; | Rich text (HTML) |
-| imgSrc   | https://via.placeholder.com/90x90 | Image |
-| myLink   | https://example.com | Link (URL) |
-| myColor  | #409CDC | Color |
-| repeatText | ["Foo", "Bar", "Baz"] | Simple text (with 3 repeat items) |
-
-The below examples show several ways to insert content in a mod's HTML panel.
-
-### Plain HTML with Handlebars (no JS framework)
-
-You can use [Handlebars](https://handlebarsjs.com/expressions.html) syntax to insert content without needing a JS framework.
-
-With values from the table above, adding the following to a mod's HTML:
+You can use Handlebars syntax to insert content into mod HTML without needing a JS framework.
 
 ```html
 <!-- Simple text -->
@@ -170,94 +153,32 @@ With values from the table above, adding the following to a mod's HTML:
 {{/each}}
 ```
 
-would yield the following output:
+You can also access colors, images, and numbers as SCSS variables:
 
-```html
-<!-- Simple text -->
-Hello, World!
+```scss
+// Color
+color: $myColor;
 
-<!-- Rich text (HTML) -->
-<p>I'm a P tag</p>
+// Image
+background: url($imgSrc);
 
-<!-- Image -->
-<img src="https://via.placeholder.com/90x90">
-
-<!-- Link -->
-<a href="https://example.com">My link</a>
-
-<!-- Color -->
-<span style="background: #409CDC">My color</span>
-
-<!-- Repeat fields -->
-Foo
-Bar
-Baz
+// Number
+padding: $padding;
 ```
 
-### Vue.js
-
-Field values are also available in a mod's JS panel through the `mod.data` object, so you could add the above fields with [Vue.js](https://vuejs.org/v2/guide/syntax.html) instead of Handlebars like so:
+And can access any mod field in JavaScript through `mod.data`:
 
 ```js
-// In the mod's JavaScript panel (be sure to include the Vue.js script URL)
-new Vue({
-  el: mod.el,
-  data: mod.data
+// Non-repeat fields
+let a = mod.data.message
+,   b = mod.data.imgSrc
+
+// Repeat fields available as mod.data.items
+mod.data.items.map(item => {
+  console.log(item.image)
 })
 ```
 
-```html
-<!-- In the mod's HTML panel -->
-
-<!-- Simple text -->
-<!-- Escape curly braces with a leading backslash \{{ -->
-\{{ message }}
-
-<!-- Rich text (HTML) -->
-<div v-html="myHtml"></div>
-
-<!-- Image -->
-<img :src="imgSrc">
-
-<!-- Link -->
-<a :href="myLink">My link</a>
-
-<!-- Color -->
-<span :style="{ background: myColor }">My color</span>
-
-<!-- Repeat fields -->
-<!-- Escape curly braces with a leading backslash \{{ -->
-<span v-for="item in items">
-  \{{ item.repeatText }}
-</span>
-```
-
-would yield the following output:
-
-```html
-<!-- Simple text -->
-Hello, World!
-
-<!-- Rich text (HTML) -->
-<p>I'm a P tag</p>
-
-<!-- Image -->
-<img src="https://via.placeholder.com/90x90">
-
-<!-- Link -->
-<a href="https://example.com">My link</a>
-
-<!-- Color -->
-<span style="background: #409CDC">My color</span>
-
-<!-- Repeat fields -->
-<span>Foo</span>
-<span>Bar</span>
-<span>Baz</span>
-```
-
-<!-- ## React Coming soon -->
-
-### Others
-
-We will introduce options for building mods with JSX & TypeScript soon, in order to better support traditional syntax for React & Angular mods. Stay tuned!
+::: tip
+See more examples for [React](/examples/react.html), [Vue](/examples/vue.html), [ES6](/examples/es6.html), [SCSS](/examples/scss.html), [Handlebars](/examples/handlebars.html), [JSX](/examples/jsx.html), and [TypeScript](/examples/typescript.html).
+:::
