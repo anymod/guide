@@ -180,5 +180,13 @@ mod.data.items.map(item => {
 ```
 
 ::: tip
-See more examples for [React](/examples/react.html), [Vue](/examples/vue.html), [ES6](/examples/es6.html), [SCSS](/examples/scss.html), [Handlebars](/examples/handlebars.html), [JSX](/examples/jsx.html), and [TypeScript](/examples/typescript.html).
+See more examples for building mods with:
+
+- [React](/examples/react.html)
+- [Vue](/examples/vue.html)
+- [ES6](/examples/es6.html)
+- [SCSS](/examples/scss.html)
+- [Handlebars](/examples/handlebars.html)
+- [JSX](/examples/jsx.html)
+- [TypeScript](/examples/typescript.html)
 :::
