@@ -63,6 +63,7 @@ module.exports = {
         //   ]
         // },
         '/guide/community.html',
+        '/guide/introducing-v2.html',
         '/guide/v1.html',
       ],
       '/examples/': [
