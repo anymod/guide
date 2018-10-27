@@ -47,7 +47,7 @@ Now you can add content directly to your mod HTML by using [Handlebars](https://
 {{ message }}
 ```
 
-[See more examples](#examples)
+<!-- [See more examples](#examples) -->
 
 ## Adding v2 to your page
 
@@ -65,7 +65,7 @@ Remove the **v1** tag from the bottom of the page:
 ### Add v2 script snippet to the `<head>` of the page
 
 ```html
-<!-- Place inside of <head> tag -->
+<!-- Place inside <head> tag -->
 <!-- Anymod -->
 <script id="Anymod-script">
   (function (m,o,d,u,l,a,r,i,z,e) {
