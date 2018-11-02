@@ -12,6 +12,7 @@ module.exports = {
     // ['script', { src: 'http://localhost:4000/anymod.com.sandbox.js' }],
     /* Scripts for mods */
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' }],
+    ['script', { src: '/guide-ref.js' }],
   ],
   ga: 'UA-89033101-2',
   themeConfig: {
