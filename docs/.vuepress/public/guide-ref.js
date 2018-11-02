@@ -7,11 +7,10 @@
   /*
   * Set referrer & UTM cookies if not already set
   */
+  var isProduction = window.location.href.indexOf('anymod.com') > -1
+  ,   cookieDomain = isProduction ? '.anymod.com' : 'localhost'
+  ,   referrerStr = Cookies.get('_anmr')
 
-  const isProduction = window.location.href.indexOf('anymod.com') > -1
-  ,     cookieDomain = isProduction ? '.anymod.com' : 'localhost'
-
-  let referrerStr = Cookies.get('_anmr')
   if (!referrerStr || referrerStr.length < 4) {
     referrerStr = document.referrer || document.referer
     if (!referrerStr || referrerStr.length < 4) referrerStr = 'none'
