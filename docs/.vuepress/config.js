@@ -98,6 +98,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       '/module-monday/': [
+        '/module-monday/21.html',
         '/module-monday/20.html',
         '/module-monday/19.html',
         '/module-monday/18.html',
