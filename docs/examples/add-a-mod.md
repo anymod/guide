@@ -63,7 +63,7 @@ Our updated HTML file now looks like this:
 
   <body>
     <h1>Hello, World!</h2>
-    
+
     <!-- Timeline demo -->
     <div id="anymod-oollr"></div>
   </body>
