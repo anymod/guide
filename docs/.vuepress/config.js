@@ -120,6 +120,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       "/module-monday/": [
+        "/module-monday/28.html",
         "/module-monday/27.html",
         "/module-monday/26.html",
         "/module-monday/25.html",
