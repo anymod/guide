@@ -42,7 +42,8 @@ module.exports = {
       { text: "Guide", link: "/guide/" },
       { text: "Examples", link: "/examples/" },
       { text: "Module Monday", link: "/module-monday/" },
-      { text: "Library", link: "https://anymod.com/library" }
+      { text: "Mods", link: "https://anymod.com/mods" },
+      { text: "Community", link: "https://community.anymod.com" }
     ],
     sidebar: {
       "/guide/": [
@@ -120,6 +121,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       "/module-monday/": [
+        "/module-monday/36.html",
         "/module-monday/35.html",
         "/module-monday/34.html",
         "/module-monday/33.html",
