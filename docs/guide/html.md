@@ -110,14 +110,12 @@ In addition to the core Handlebars functionality, mods also include the followin
 
 | Category   | Description                                | Docs                                                        |
 | ---------- | ------------------------------------------ | ----------------------------------------------------------- |
-| collection | First item, last item, sorted, etc         | [link](http://assemble.io/helpers/helpers-collections.html) |
 | comparison | Compare values                             | [link](http://assemble.io/helpers/helpers-comparison.html)  |
-| date       | Format dates                               | [link](http://assemble.io/helpers/helpers-dates.html)       |
-| inflection | Plurals and number suffixes                | [link](http://assemble.io/helpers/helpers-inflections.html) |
+| inflection | Plurals and number suffixes (ordinals)     | [link](http://assemble.io/helpers/helpers-inflections.html) |
 | markdown   | Compile markdown to HTML                   | [link](http://assemble.io/helpers/helpers-markdown.html)    |
 | math       | Add, divide, floor, ceiling, rounding, etc | [link](http://assemble.io/helpers/helpers-math.html)        |
 | number     | Commas, decimals, scientific notation, etc | [link](http://assemble.io/helpers/helpers-numbers.html)     |
-| strings    | Capitalize, format, count, truncate, etc   | [link](http://assemble.io/helpers/helpers-strings.html)     |
+| string     | Capitalize, format, count, truncate, etc   | [link](http://assemble.io/helpers/helpers-strings.html)     |
 
 ### Manipulating images
 
