@@ -87,7 +87,6 @@ module.exports = {
         //     '/guide/dashboard-responses.html',
         //   ]
         // },
-        "/guide/community.html",
         "/guide/introducing-v2.html",
         "/guide/v1.html"
       ],
