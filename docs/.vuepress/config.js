@@ -63,6 +63,11 @@ module.exports = {
           ]
         },
         {
+          title: "Mod editor",
+          collapsable: false,
+          children: ["/guide/html.html"]
+        },
+        {
           title: "Using Anymod",
           collapsable: false,
           children: [

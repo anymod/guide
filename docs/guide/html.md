@@ -124,3 +124,18 @@ You can use [buildImage](/guide/global-methods.html#anymod-buildimage) to manipu
 ```html
 <img src="{{ buildImage image w=300 h=200 c='fill' g='face' }}" />
 ```
+
+## Vue syntax
+
+You may encounter mods that use Vue.js, in which case you will notice HTML syntax like the following:
+
+| Syntax      | Purpose                                                                       | Docs                                      |
+| ----------- | ----------------------------------------------------------------------------- | ----------------------------------------- |
+| `v-text`    | Insert text                                                                   | [link](https://vuejs.org/v2/api/#v-text)  |
+| `v-html`    | Insert HTML                                                                   | [link](https://vuejs.org/v2/api/#v-html)  |
+| `v-bind`    | Bind to an attribute, e.g. `v-bind:class`, `v-bind:style`, `:class`, `:style` | [link](https://vuejs.org/v2/api/#v-on)    |
+| `v-if`      | Conditionally include an element                                              | [link](https://vuejs.org/v2/api/#v-if)    |
+| `v-show`    | Conditionally show an element                                                 | [link](https://vuejs.org/v2/api/#v-show)  |
+| `v-for`     | Loop over an array                                                            | [link](https://vuejs.org/v2/api/#v-if)    |
+| `v-on`, `@` | Respond to events (`v-on:click`, `@click`, `@submit`, etc)                    | [link](https://vuejs.org/v2/api/#v-on)    |
+| `v-model`   | Bind to an input                                                              | [link](https://vuejs.org/v2/api/#v-model) |
