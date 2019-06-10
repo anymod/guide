@@ -3,7 +3,7 @@ title: Image manipulation
 lang: en-US
 ---
 
-In this example, we'll use Anymod's built in `buildImage` method to manipulate an uploaded image.
+In this example, we'll use AnyMod's built in `buildImage` method to manipulate an uploaded image.
 
 ### 1. Add an image to your mod
 
@@ -21,7 +21,7 @@ Now click on the `myImage` link and upload an image:
 
 In the mod's JS panel, we can access our image with `mod.data.myImage`.
 
-Similarly, we can use Anymod's built in `buildImage` method to manipulate the image in different ways:
+Similarly, we can use AnyMod's built in `buildImage` method to manipulate the image in different ways:
 
 ```js{2-5}
 var imageVersions = [

@@ -8,11 +8,11 @@ In this example, we'll create a draft of website content.
 **Drafts have 2 main use cases:**
 
  - Making content changes without them being "live"
- - Allowing someone to edit content without an Anymod account
+ - Allowing someone to edit content without an AnyMod account
 
 ### 1. Create a draft
 
-In the Anymod dashboard for your project, click **Drafts** in the side menu, then click **New website draft**.
+In the AnyMod dashboard for your project, click **Drafts** in the side menu, then click **New website draft**.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534443925/draft-01_yxth07.png">
 
@@ -20,7 +20,7 @@ Enter the URL where your mod(s) can be found and optionally add a name for the d
 
 ### 2. Visit the link for the draft
 
-Each draft has a custom link that you can visit to access the draft.  This link will work whether you're logged in to Anymod or not, which means you can share it with others.
+Each draft has a custom link that you can visit to access the draft.  This link will work whether you're logged in to AnyMod or not, which means you can share it with others.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534444339/draft-02_q7ximi.png">
 
@@ -36,13 +36,13 @@ Once you've edited a mod, click **Save Draft**. A button will now appear on the 
 
 Changes made to a draft are not visible on the live website until the draft is published.
 
-Back in the Anymod dashboard, select your draft to review its changes. Click **Publish all** to make the draft live.
+Back in the AnyMod dashboard, select your draft to review its changes. Click **Publish all** to make the draft live.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534444984/draft-04_o0htgb.png">
 
 ### 5. Set a publishing password (optional)
 
-You can add a password to each draft to enable publishing without logging into Anymod. 
+You can add a password to each draft to enable publishing without logging into AnyMod. 
 
 Click **Settings** for your draft, then enter your desired password and click **Set password**:
 

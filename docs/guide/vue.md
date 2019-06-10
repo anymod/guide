@@ -3,7 +3,7 @@ title: Vue.js project
 lang: en-US
 ---
 
-# Use Anymod in a Vue.js project
+# Use AnyMod in a Vue.js project
 
 ## Setup
 
@@ -47,7 +47,7 @@ new Vue({
 
 ## Example
 
-<iframe height='500' scrolling='no' title='Anymod with Vue.js' src='//codepen.io/anymod/embed/ePdpge/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
+<iframe height='500' scrolling='no' title='AnyMod with Vue.js' src='//codepen.io/anymod/embed/ePdpge/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
 </iframe>
 
 ## Rendering multiple mods

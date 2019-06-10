@@ -7,13 +7,13 @@ lang: en-US
 
 ## How it works
 
-Anymod has everything you need to add forms without your own server-side code.
+AnyMod has everything you need to add forms without your own server-side code.
 
-You can collect form responses in the Anymod dashboard or send the responses anywhere you choose, like MailChimp or another external service.
+You can collect form responses in the AnyMod dashboard or send the responses anywhere you choose, like MailChimp or another external service.
 
 ## From the library
 
-Anymod has dozens of forms to choose from in the [library](https://anymod.com/library?tag=forms). These forms will work automatically, unless they specifically mention using with an external service like MailChimp.
+AnyMod has dozens of forms to choose from in the [library](https://anymod.com/library?tag=forms). These forms will work automatically, unless they specifically mention using with an external service like MailChimp.
 
 To add a form, choose from the library and click the "Clone" button in the top corner:
 
@@ -23,7 +23,7 @@ Next click "Add to webpage" in the top corner, then follow the installation inst
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
 
-Adding the Anymod script and the mod tag to your page will cause the form to appear:
+Adding the AnyMod script and the mod tag to your page will cause the form to appear:
 
 ```html
 <!-- Contact form -->

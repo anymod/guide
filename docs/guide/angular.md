@@ -3,11 +3,11 @@ title: Angular 2+ project
 lang: en-US
 ---
 
-# Use Anymod in an Angular 2+ project
+# Use AnyMod in an Angular 2+ project
 
 ## Setup
 
-To use Anymod with [Angular 2+](https://angular.io/), add the Anymod script tag into your document `<head>` before any Angular script tags. Then make `Anymod` available in your `.ts` file:
+To use AnyMod with [Angular 2+](https://angular.io/), add the AnyMod script tag into your document `<head>` before any Angular script tags. Then make `Anymod` available in your `.ts` file:
 
 ```ts
 declare var Anymod: any;

@@ -8,9 +8,9 @@ lang: en-US
 
 ## How it works
 
-Anymod lets you make any part of any website editable.
+AnyMod lets you make any part of any website editable.
 
-You can make your pages editable by moving static HTML content into a mod, which is editable through the Anymod dashboard or with a live, on-page editor.
+You can make your pages editable by moving static HTML content into a mod, which is editable through the AnyMod dashboard or with a live, on-page editor.
 
 When you add a mod with content to your page, it will look normal to visitors. For users on your team however, a pencil icon will appear on the right side of the page:
 
@@ -71,9 +71,9 @@ For more examples of how to make the content on your page editable, see [Content
 
 ## Complex content
 
-Anymod can do much more than make basic text editable. You can build (or clone) mods to edit cards, images, events, colors, links, pricing, navigation and more.
+AnyMod can do much more than make basic text editable. You can build (or clone) mods to edit cards, images, events, colors, links, pricing, navigation and more.
 
-Essentially any content or feature on a website can be made editable with Anymod.
+Essentially any content or feature on a website can be made editable with AnyMod.
 
 The following example is a [team page mod](https://anymod.com/mod/dmkdn), with the live mod added to this page:
 
@@ -84,7 +84,7 @@ The following example is a [team page mod](https://anymod.com/mod/dmkdn), with t
 
 <mod :mod-key="'kokla'"/>
 
-This mod is editable just like the basic content, with the on-page editor or via the Anymod dashboard:
+This mod is editable just like the basic content, with the on-page editor or via the AnyMod dashboard:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1537498106/cms-06_q3oyyo.png">
 

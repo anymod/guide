@@ -10,7 +10,7 @@ lang: en-US
 
 Add a timeline mod to your web page:
 
-1. Paste the Anymod script in the head of your HTML, just before the closing `</head>` tag:
+1. Paste the AnyMod script in the head of your HTML, just before the closing `</head>` tag:
 
 ```html
 <!-- Anymod -->
@@ -53,7 +53,7 @@ The HTML for the above example looks like the following:
 <html>
 
   <head>
-    <title>Anymod Quickstart</title>
+    <title>AnyMod Quickstart</title>
 
     <!-- Anymod -->
     <script id="Anymod-script">

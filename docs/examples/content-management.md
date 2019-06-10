@@ -47,7 +47,7 @@ Click the **Add to website** button and follow the instructions.  If you have no
 </head>
 ```
 
-This enables Anymod on the page.  Now paste the mod's tag in your page's HTML wherever you want your mod to appear:
+This enables AnyMod on the page.  Now paste the mod's tag in your page's HTML wherever you want your mod to appear:
 
 ```html
 <!-- Lorem ipsum text -->
@@ -55,9 +55,9 @@ This enables Anymod on the page.  Now paste the mod's tag in your page's HTML wh
 ```
 
 ::: tip
-Make sure you add your own project ID in the Anymod script above (where it says `XXXXXX`), and make sure you use your own mod (not `nmnmo`).
+Make sure you add your own project ID in the AnyMod script above (where it says `XXXXXX`), and make sure you use your own mod (not `nmnmo`).
 :::
 
 ### 7. Reload your page
 
-You content should show on your page.  If you are logged into Anymod, you will also see a pencil icon appear on the right side of the page.  Clicking this icon enables you to make edits to your content.
+You content should show on your page.  If you are logged into AnyMod, you will also see a pencil icon appear on the right side of the page.  Clicking this icon enables you to make edits to your content.

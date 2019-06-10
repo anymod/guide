@@ -8,7 +8,7 @@ lang: en-US
 
 ## How it works
 
-Anymod has pre-built social media mods so that you don't have to dig through docs each time you want to install a widget. The process is straightforward:
+AnyMod has pre-built social media mods so that you don't have to dig through docs each time you want to install a widget. The process is straightforward:
 1. Clone a mod 
 2. Add your (or a client's) username
 
@@ -16,7 +16,7 @@ That's all you need. No more digging through documentation for each widget.
 
 ## Popular widgets in the library
 
-Anymod has dozens of mods for popular services, including:
+AnyMod has dozens of mods for popular services, including:
 
 ### Twitter follow, tweet, share, etc 
 [See mods](https://anymod.com/library?q=twitter)

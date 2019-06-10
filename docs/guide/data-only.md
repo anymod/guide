@@ -5,7 +5,7 @@ lang: en-US
 
 # Data-only API
 
-You can forego the Anymod script and rendering framework entirely and use Anymod as a data source instead. To do so, send a `GET` request with the appropriate parameters to the **/data** endpoint.
+You can forego the AnyMod script and rendering framework entirely and use AnyMod as a data source instead. To do so, send a `GET` request with the appropriate parameters to the **/data** endpoint.
 
 There are 2 types of requests:
 

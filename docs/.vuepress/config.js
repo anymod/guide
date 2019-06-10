@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Anymod Guide",
-  description: "Documentation & Examples for Anymod",
+  title: "AnyMod Guide",
+  description: "Documentation & Examples for AnyMod",
   head: [
     [
       "link",
@@ -68,7 +68,7 @@ module.exports = {
           children: ["/guide/html.html"]
         },
         {
-          title: "Using Anymod",
+          title: "Using AnyMod",
           collapsable: false,
           children: [
             "/guide/usage.md",
@@ -84,7 +84,7 @@ module.exports = {
         },
         // TODO
         // {
-        //   title: 'Anymod dashboard',
+        //   title: 'AnyMod dashboard',
         //   collapsable: false,
         //   children: [
         //     '/guide/dashboard-pages.html',
@@ -125,6 +125,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       "/module-monday/": [
+        "/module-monday/42.html",
         "/module-monday/41.html",
         "/module-monday/40.html",
         "/module-monday/39.html",

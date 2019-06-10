@@ -13,7 +13,7 @@ lang: en-US
 
 | Example | Description |
 |:------------- |:------------- |
-| [Manage content](/examples/content-management.html)| Edit live content with Anymod |
+| [Manage content](/examples/content-management.html)| Edit live content with AnyMod |
 | [Make your page editable](/examples/make-page-editable.html) | Make an existing web page editable |
 | [Create a draft](/examples/create-a-draft.html) | Edit and preview content before publishing |
 
@@ -36,7 +36,7 @@ lang: en-US
 | Example | Description |
 |:------------- |:------------- |
 | [Optimize CSS & JS assets](/examples/optimize-assets.html) | Improve page load times by adding CSS & JS resources directly to a page |
-| [Image manipulation](/examples/image-manipulation.html) | Use Anymod's `buildImage` function to manipulate images |
+| [Image manipulation](/examples/image-manipulation.html) | Use AnyMod's `buildImage` function to manipulate images |
 | [Right-size image](/examples/right-size-image.html) | Change image dimensions based on the screen size of the device viewing your page |
 
 <!-- ### External services [TODO]

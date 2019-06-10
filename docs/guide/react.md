@@ -3,7 +3,7 @@ title: React project
 lang: en-US
 ---
 
-# Use Anymod in a React project
+# Use AnyMod in a React project
 
 ## Setup
 

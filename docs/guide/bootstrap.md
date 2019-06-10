@@ -3,12 +3,12 @@ title: Bootstrap project
 lang: en-US
 ---
 
-# Use Anymod in a Bootstrap project
+# Use AnyMod in a Bootstrap project
 
 
 ## Setup
 
-To use mods with [Bootstrap 3](http://getbootstrap.com/) or [Bootstrap 4](https://v4-alpha.getbootstrap.com/), add Anymod where desired, and the Anymod script will load your mod(s) automatically:
+To use mods with [Bootstrap 3](http://getbootstrap.com/) or [Bootstrap 4](https://v4-alpha.getbootstrap.com/), add AnyMod where desired, and the AnyMod script will load your mod(s) automatically:
 
 ```html
 <div id="anymod-mklod"></div>

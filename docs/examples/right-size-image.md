@@ -3,7 +3,7 @@ title: Right-size image
 lang: en-US
 ---
 
-In this example, we'll use Anymod's built in `buildImage` method to always size an image to match the width of a visitor's browser window.  This means large screens will see a high-resolution image, while smaller screens will see a scaled-down version of the same image.
+In this example, we'll use AnyMod's built in `buildImage` method to always size an image to match the width of a visitor's browser window.  This means large screens will see a high-resolution image, while smaller screens will see a scaled-down version of the same image.
 
 With this approach, we can have high-resolution when needed but also have fast page loads on mobile devices.
 

@@ -8,7 +8,7 @@ lang: en-US
 
 ## How it works
 
-Anymod lets you easily add image galleries to any page.
+AnyMod lets you easily add image galleries to any page.
 
 Images can be replaced and rearranged by anyone on your team, with no coding knowledge needed.
 
@@ -39,7 +39,7 @@ The three images above are actually mods: click the pencil <sandbox-inline/> on 
 
 ## From the library
 
-Anymod has dozens of galleries to choose from in the [library](https://anymod.com/library?tag=galleries).
+AnyMod has dozens of galleries to choose from in the [library](https://anymod.com/library?tag=galleries).
 
 To add a gallery, choose from the library and click the "Clone" button in the top corner:
 
@@ -49,7 +49,7 @@ Next click "Add to webpage" in the top corner, then follow the installation inst
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
 
-Adding the Anymod script and the mod tag to your page will cause the gallery to appear:
+Adding the AnyMod script and the mod tag to your page will cause the gallery to appear:
 
 ```html
 <!-- Image gallery -->

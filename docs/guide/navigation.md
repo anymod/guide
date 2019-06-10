@@ -24,12 +24,12 @@ To add a navbar mod to a page, paste the mod into your HTML:
 To add the navbar to multiple pages, paste the mod HTML onto each page.
 
 ::: tip
-Be sure to also paste the Anymod script on pages where you want mods to show. See [installing a mod](/guide/usage.html#installing-a-mod) for more info.
+Be sure to also paste the AnyMod script on pages where you want mods to show. See [installing a mod](/guide/usage.html#installing-a-mod) for more info.
 :::
 
 ## Types of navs
 
-The Anymod [library](https://anymod.com/library) has dozens of navigation elements with different styles and layouts:
+The AnyMod [library](https://anymod.com/library) has dozens of navigation elements with different styles and layouts:
 
 ```html
 <!-- Material Design sidenav -->

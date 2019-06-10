@@ -3,7 +3,7 @@ title: AngularJS project
 lang: en-US
 ---
 
-# Use Anymod in an AngularJS v1 project
+# Use AnyMod in an AngularJS v1 project
 
 ## Setup
 

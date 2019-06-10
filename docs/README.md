@@ -3,7 +3,7 @@ home: true
 heroImage: https://res.cloudinary.com/component/image/upload/v1519768558/mod_logo_min.svg
 actionText: Get Started →
 actionLink: /guide/
-footer: MIT Licensed | Copyright © 2018-present Anymod
+footer: MIT Licensed | Copyright © 2018-present AnyMod
 ---
 
 <div class="features">
@@ -18,7 +18,7 @@ footer: MIT Licensed | Copyright © 2018-present Anymod
   <div class="feature">
     <h2>Examples</h2>
     <p>
-      Various examples of how to use Anymod.
+      Various examples of how to use AnyMod.
       <br>
       <a href="/examples/">See examples →</a>
     </p>

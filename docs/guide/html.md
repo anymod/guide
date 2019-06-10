@@ -5,7 +5,7 @@ lang: en-US
 
 # HTML editor
 
-When the Anymod script runs, it first replaces a mod's tag (`<div id="anymod-abcde"></div>`) with the mod's HTML. This means anything in a mod's HTML will be placed directly onto the page.
+When the AnyMod script runs, it first replaces a mod's tag (`<div id="anymod-abcde"></div>`) with the mod's HTML. This means anything in a mod's HTML will be placed directly onto the page.
 
 In addition to plain HTML, you can insert fields/variables directly into a mod's HTML with Handlebars.
 

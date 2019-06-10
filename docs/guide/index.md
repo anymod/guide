@@ -5,7 +5,7 @@ lang: en-US
 
 # Introduction
 
-Anymod lets you easily add features to any website or web app.
+AnyMod lets you easily add features to any website or web app.
 
 - [Content Management (CMS)](/guide/content-management-cms.html)
 - [Forms](/guide/form.html)
@@ -21,16 +21,16 @@ Mods are designed to work with **ANY** web technology, from plain HTML to WordPr
 This approach gives you freedom to work across tech stacks, and to build or host with whatever tools you want.
 
 ::: tip
-Check out the [Quickstart](/guide/quickstart.html) to try Anymod without an account.
+Check out the [Quickstart](/guide/quickstart.html) to try AnyMod without an account.
 :::
 
 ## Fast loads
 
-Mods load fast. Page speed is a top priority at Anymod, and we have dedicated significant resources to building a fast, global delivery network for mods.
+Mods load fast. Page speed is a top priority at AnyMod, and we have dedicated significant resources to building a fast, global delivery network for mods.
 
 A basic page with 15 mods will load all of its mod data in single request taking 10-30ms.
 
-Mods load in parallel with DOM parsing and loading of other non-Anymod assets. The net result is little or no impact on page load time, and, in many cases, moving features to Anymod will speed up a page.
+Mods load in parallel with DOM parsing and loading of other non-AnyMod assets. The net result is little or no impact on page load time, and, in many cases, moving features to AnyMod will speed up a page.
 
 ## Tools for non-developers
 
@@ -60,8 +60,8 @@ Mods are fully indexed by Google and appear in search results alongside other pa
 
 ## Library of mods
 
-Anymod offers an open-source [library](https://anymod.com/library) of mods to support your projects. You can use these mods as-is in any project you choose, or you can clone, edit, and reuse library mods wherever you need them.
+AnyMod offers an open-source [library](https://anymod.com/library) of mods to support your projects. You can use these mods as-is in any project you choose, or you can clone, edit, and reuse library mods wherever you need them.
 
 Mods in our library have been screened for quality, browser compatibility, and security. We publish a weekly overview with new mods called [Module Monday](/module-monday/).
 
-Our goal at Anymod is to make it easy to add rich features to any website or web app. We are always adding new mods to our library, and we love working closely with developers and teams to help build a better Internet.
+Our goal at AnyMod is to make it easy to add rich features to any website or web app. We are always adding new mods to our library, and we love working closely with developers and teams to help build a better Internet.

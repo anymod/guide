@@ -1,16 +1,16 @@
 ---
-title: Anymod script
+title: AnyMod script
 lang: en-US
 ---
 
 # Script options
 
-You can customize Anymod's behavior on each page:
+You can customize AnyMod's behavior on each page:
 - To show or hide console tips
 - To show or hide the on-page content editor ("toolkit")
 - To load certain mods before others
 
-To do this, edit the options parameter `{}`, which is the final argument of the Anymod script:
+To do this, edit the options parameter `{}`, which is the final argument of the AnyMod script:
 
 ```html{6}
 <!-- Anymod -->
@@ -31,7 +31,7 @@ The following parameters can be added inside the last `{}` argument of line 6 ab
 | `toolkit`  | `true`,`false` | true | Show the toolkit pencil (on-page content editor) for logged in users. |
 | `priority` | `0`,`1`,`2`,`3`,`4`,etc.<br>**or**<br>array of mod keys: `['abcde','fghij']` | 3 | Number of mods to load before loading remaining mods, or array with mod keys to load before loading remaining mods. |
 
-By default, Anymod loads the first 3 mods on a page first, then loads any remaining mods.
+By default, AnyMod loads the first 3 mods on a page first, then loads any remaining mods.
 
 ### Example 1: hide on-page editor and prioritize first 2 mods
 

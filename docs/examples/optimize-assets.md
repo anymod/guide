@@ -34,9 +34,9 @@ Taken together, the 3 mods above have the following external assets added to the
 | Axios | JS | https://unpkg.com/axios/dist/axios.min.js |
 | Bulma | CSS | https://cdn.anymod.com/anymod.namespaced.a04.bulma-v0.7.css |
 
-By default, Anymod will load all of the assets needed for these mods automatically, and the mods will work right out of the box.
+By default, AnyMod will load all of the assets needed for these mods automatically, and the mods will work right out of the box.
 
-However, in order to know which assets to load, Anymod has to make a request when the page is first parsed, and then load the assets.  This is fast, but we can make the process even faster by eliminating this first request.
+However, in order to know which assets to load, AnyMod has to make a request when the page is first parsed, and then load the assets.  This is fast, but we can make the process even faster by eliminating this first request.
 
 ### 2. Reading the browser console
 

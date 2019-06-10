@@ -3,7 +3,7 @@ title: Make your page editable
 lang: en-US
 ---
 
-In this example, we'll make an existing piece of content on a website editable through Anymod.
+In this example, we'll make an existing piece of content on a website editable through AnyMod.
 
 ### 1. Find the content that you want to make editable
 
@@ -15,7 +15,7 @@ For this example, we'll use a block of content on a simple web page:
 
 ### 2. Add a mod to your project
 
-In the Anymod dashboard, click **New Mod** and then choose the "Content block" mod. Or you can clone the content block mod [here](https://anymod.com/mod/errba).
+In the AnyMod dashboard, click **New Mod** and then choose the "Content block" mod. Or you can clone the content block mod [here](https://anymod.com/mod/errba).
 
 ::: tip
 We're using a simple "Content block" mod for this example, but you can use & customize any other mod to have editable content too. See the [mod library](https://anymod.com/library) for more options.
@@ -63,19 +63,19 @@ with
 ```
 
 ::: tip
-Be sure you have added the Anymod script to the top of your page as well. Learn more about setup [here](/examples/add-a-mod.html).
+Be sure you have added the AnyMod script to the top of your page as well. Learn more about setup [here](/examples/add-a-mod.html).
 :::
 
 ### 6. Reload your page - now it's editable
 
-Your page should look the same as before, but now you can see a pencil on the right side of the page whenever you're logged into Anymod.
+Your page should look the same as before, but now you can see a pencil on the right side of the page whenever you're logged into AnyMod.
 
 Click the pencil and then select your mod to make live edits directly from your page.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437796/editable-05_xtsof6.png">
 
 ::: tip
-The editor pencil will show on your web page whenever you're logged in to Anymod. It won't show for your site visitors.
+The editor pencil will show on your web page whenever you're logged in to AnyMod. It won't show for your site visitors.
 
-To allow others to make edits, you can either add them to the project on Anymod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits.
+To allow others to make edits, you can either add them to the project on AnyMod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits.
 :::

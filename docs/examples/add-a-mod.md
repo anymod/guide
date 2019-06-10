@@ -41,7 +41,7 @@ In the mod editor view, click the **Add to website** button in top right corner.
 
 First, paste the **mod tag** in the `<body>` wherever you want the mod to appear.
 
-Next, paste the **Anymod script** just before the closing `</head>` tag of your web page.
+Next, paste the **AnyMod script** just before the closing `</head>` tag of your web page.
 
 Our updated HTML file now looks like this:
 

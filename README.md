@@ -1,4 +1,4 @@
-## Anymod Guide
+## AnyMod Guide
 Docs built with [Vuepress](https://vuepress.vuejs.org/), with app located at:
 
 | ENV | URL |
