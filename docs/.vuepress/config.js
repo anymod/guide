@@ -36,7 +36,14 @@ module.exports = {
     ],
     ["script", { src: "/guide-ref.js" }]
   ],
-  ga: "UA-89033101-2",
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-89033101-2"
+      }
+    ]
+  ],
   themeConfig: {
     nav: [
       { text: "Guide", link: "/guide/" },
@@ -92,7 +99,7 @@ module.exports = {
         //     '/guide/dashboard-responses.html',
         //   ]
         // },
-        "/guide/introducing-v2.html",
+        // "/guide/introducing-v2.html",
         "/guide/v1.html"
       ],
       "/examples/": [
@@ -195,7 +202,9 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page"
   },
-  markdown: {
-    lineNumbers: true
+  extendMarkdown(md) {
+    return {
+      lineNumbers: true
+    };
   }
 };
