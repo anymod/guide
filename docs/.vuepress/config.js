@@ -109,7 +109,7 @@ module.exports = {
         // Content management
         ["/examples/content-management.html", "Content management (CMS)"],
         "/examples/make-page-editable.html",
-        "/examples/create-a-draft.html",
+        // "/examples/create-a-draft.html",
         // Build & customize mods
         "/examples/react.html",
         "/examples/vue.html",
@@ -204,7 +204,7 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page"
   },
-  extendMarkdown(md) {
+  extendMarkdown (md) {
     return {
       lineNumbers: true
     };
