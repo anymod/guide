@@ -22,17 +22,17 @@ Use Handlebars HTML insertion syntax (`{{{` `}}}`) to automatically insert your 
 
 ### 4. Set a value for the `content` field
 
-Click the **Content** button and add some text to your `content` field. Click **Publish**.
+Click the pencil icon and add some text to your `content` field. Click **Save & Publish**.
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-04_ukwr7h.png"/>
 
 ### 5. Now your content is being inserted into your mod
 
-It is visible in the preview panel below all the code panels.
+It is visible in the preview pane.
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-05_wrrfav.png"/>
 
 ### 6. Add the mod to any website or web app
 
-Click the **Add to website** button and follow the instructions.  If you have not done so already, paste the anymod script into your page's `<head>` element:
+Follow the instructions at the bottom of the page. If you have not done so already, paste the anymod script into your page's `<head>` element:
 
 ```html
 <head>

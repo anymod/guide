@@ -19,7 +19,7 @@ To add a form, choose from the library and click the "Clone" button in the top c
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094266/form-01_pax5gh.png">
 
-Next click "Add to webpage" in the top corner, then follow the installation instructions:
+Next follow the instructions on the bottom of the page:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
 
@@ -29,6 +29,7 @@ Adding the AnyMod script and the mod tag to your page will cause the form to app
 <!-- Contact form -->
 <div id="anymod-mkbar"></div>
 ```
+
 <!-- Elegant contact form Form-01 -->
 <mod mod-key="dmamn"/>
 
@@ -38,7 +39,7 @@ This is a live contact form. Responses go to a project dashboard as described be
 
 ## Built-in responses
 
-When a visitor submits one of your forms, their response shows in your dashboard automatically, and by default you also receive an email notifying you of the form response.
+When a visitor submits one of your forms, their response shows in your dashboard automatically, and by default you also receive an email notifying you of the form response. You also have the option to download a CSV or Excel document containing your responses.
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094951/form-03_qnjbou.png">
 
@@ -52,6 +53,7 @@ For MailChimp subscription forms, you can use one of the ready-to-use mods like 
 <!-- MailChimp signup section -->
 <div id="anymod-rdddb"></div>
 ```
+
 <mod mod-key="mkbkd"/>
 
 ::: warning
@@ -59,4 +61,3 @@ This form does not work out of the box because it requires a MailChimp API key.
 :::
 
 To learn more about building custom forms to interact with external services, see the [Axios](/examples/axios.html), [MailChimp](/examples/mailchimp.html), and [reCAPTCHA](/examples/recaptcha.html) examples.
-

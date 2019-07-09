@@ -4,11 +4,13 @@ lang: en-US
 ---
 
 # General usage
+
 <sandbox/>
 
 ## Installing a mod
 
 To install a mod on your page, do the following:
+
 1. Add or clone the mod into your project
 2. Paste the Anymod script and mod tag to your HTML
 
@@ -18,7 +20,7 @@ Each mod has a `Clone` button in the top corner. Clicking this button creates a 
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538699135/usage-01_qhd6we.png">
 
-When a mod is in your project, it will have an `Add to website` button at the top next to the `Clone` button. Clicking this button gives instructions on how to add the mod to your web page:
+Follow the instructions on the bottom of the page in order to add the mod to your website:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538699346/usage-02_wxweff.png">
 
@@ -36,10 +38,47 @@ then paste the Anymod script once, just before the closing `</head>` tag:
 ```html
 <!-- Anymod -->
 <script id="Anymod-script">
-  (function (m,o,d,u,l,a,r,i,z,e) {
-    u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
-    e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
-  })('Anymod','XXXXXX','https://cdn.anymod.com/v2',window,document,'script',{});
+  ;(function(m, o, d, u, l, a, r, i, z, e) {
+    u[m] = {
+      Project: o,
+      rq: [],
+      Opts: r,
+      ready: function(j) {
+        u[m].rq.push(j)
+      },
+    }
+    function j(s) {
+      return encodeURIComponent(btoa(s))
+    }
+    z = l.getElementById(m + '-' + a)
+    r = u.location
+    e = [
+      d +
+        '/page/' +
+        o +
+        '/' +
+        j(r.pathname) +
+        '/' +
+        j(r.host) +
+        '?t=' +
+        Date.now(),
+      d,
+    ]
+    e.map(function(w) {
+      i = l.createElement(a)
+      i.defer = 1
+      i.src = w
+      z.parentNode.insertBefore(i, z)
+    })
+  })(
+    'Anymod',
+    'XXXXXX',
+    'https://cdn.anymod.com/v2',
+    window,
+    document,
+    'script',
+    {}
+  )
 </script>
 <!-- /Anymod -->
 ```
@@ -51,12 +90,12 @@ Now when you load the page, the mod appears:
   <mod mod-key="mklmd"/>
 </div>
 
-To add multiple mods to a page, paste each mod wherever you want: 
+To add multiple mods to a page, paste each mod wherever you want:
 
 ```html
 <!-- Card with top image -->
 <div id="anymod-ekaob"></div>
-<br>
+<br />
 <!-- GitHub button -->
 <div id="anymod-nbdal"></div>
 ```
@@ -76,6 +115,7 @@ Only add the Anymod script once, even if you have many mods on a page.
 ## Editing a mod
 
 There are two ways to edit a mod:
+
 - Edit **content** directly from your own web page; or
 - Edit **content & code** in the Anymod dashboard
 
@@ -89,7 +129,7 @@ Try it: click the pencil <sandbox-inline/> on the right of this page, then click
 
 ### Editing from the Anymod dashboard
 
-To edit content from the Anymod dashboard, click the `Content` button at the top of a mod.
+To edit content from the Anymod dashboard, click the pencil icon at the top of a mod.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436196/editable-02_pspkig.png">
 

@@ -37,7 +37,7 @@ Without the external library, the console will throw an error and nothing shows 
 
 ### 3. Add an external script
 
-Click the gear (cog) in the header of the JS panel to open the mod's JavaScript settings.  From there, you can either choose a script from the dropdown menu or paste a URL to other scripts.
+Click the JS Assets tab.  From there, you can either choose a script from the dropdown menu or paste a URL to other scripts.
 
 Paste the URL for the Google Charts script: `https://www.gstatic.com/charts/loader.js`
 

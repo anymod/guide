@@ -17,7 +17,7 @@ It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars
 
 ### 2. Add React and ReactDOM scripts
 
-Click the settings gear in the JavaScript panel. From the dropdown menu, click **React** to add it first, followed by **React DOM** second.
+Click the JS Assets tab. From the dropdown menu, click **React** to add it first, followed by **React DOM** second.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-02_s1aakp.png">
 

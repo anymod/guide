@@ -21,7 +21,7 @@ In the AnyMod dashboard, click **New Mod** and then choose the "Content block" m
 We're using a simple "Content block" mod for this example, but you can use & customize any other mod to have editable content too. See the [mod library](https://anymod.com/library) for more options.
 :::
 
-### 3. Click the *Content* button in the mod editor
+### 3. Click the pencil icon
 
 This will let you edit the content in your new mod.
 
@@ -29,11 +29,11 @@ This will let you edit the content in your new mod.
 
 ### 4. Paste your content into the text editor
 
-Delete the existing content and replace it with your own. Click the **Publish** button to publish your new content.
+Delete the existing content and replace it with your own. Click the **Save & Publish** button to publish your new content.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-03_lvqehh.png">
 
-Now your content should be showing in the mod preview panel:
+Now your content should be showing in the preview pane:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-04_oelu3u.png">
 
@@ -77,5 +77,5 @@ Click the pencil and then select your mod to make live edits directly from your 
 ::: tip
 The editor pencil will show on your web page whenever you're logged in to AnyMod. It won't show for your site visitors.
 
-To allow others to make edits, you can either add them to the project on AnyMod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits.
+<!-- To allow others to make edits, you can either add them to the project on AnyMod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits. -->
 :::

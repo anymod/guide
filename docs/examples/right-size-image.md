@@ -9,7 +9,7 @@ With this approach, we can have high-resolution when needed but also have fast p
 
 ### 1. Add an image to your mod
 
-Click **Settings** at the top of the page, then visit the **Fields** tab.
+Click the pencil icon at the top of the page, then visit the **Fields** tab.
 
 Add a field called `myImage` to your mod with type **Image**:
 

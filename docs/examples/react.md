@@ -35,11 +35,11 @@ If you're using a bundle build of React, you can add the URL to your bundle inst
 
 ### 4. Add a field called `message`
 
-Click the **Fields** tab in the settings window, and add a field called `message` with type set to **Simple text**
+Click the **Fields** tab and add a field called `message` with type set to **Simple text**
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464879/react-03a_ojthj1.png">
 
-Click **Add field** and then click on the link for the `message` field. Add some text and click **Publish**.
+Click **Add field** and then click on the link for the `message` field. Add some text and click **Save & Publish**.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464878/react-03b_hszpkl.png">
 
@@ -76,7 +76,7 @@ h1 {
 
 ### 7. Save your mod
 
-When you click **Save**, your mod is automatically pre-compiled and displayed. It should look like the example below:
+When you click **Save & Publish**, your mod is automatically pre-compiled and displayed. It should look like the example below:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-03_vdgv2a.png">
 

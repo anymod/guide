@@ -4,6 +4,7 @@ lang: en-US
 ---
 
 # Image galleries
+
 <sandbox/>
 
 ## How it works
@@ -45,7 +46,7 @@ To add a gallery, choose from the library and click the "Clone" button in the to
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538154150/gallery-04_wkvd2r.png">
 
-Next click "Add to webpage" in the top corner, then follow the installation instructions:
+Next follow the instructions on the bottom of the page:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
 

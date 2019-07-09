@@ -24,8 +24,6 @@ Your mod fields should look like this:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534818721/handlebars-02_mtq2fb.png">
 
-Click **Insert in HTML** for each field to automatically add the Handlebars markup to your mod's HTML.
-
 Your mod's HTML panel should now read
 
 ```html
@@ -42,11 +40,11 @@ Notice that we've used two curly braces to insert simple text (`{{` `}}`), while
 
 ### 3. Add content to your fields
 
-Click **Content** at the top of the page, then add some content for your `message` field. Also add some repeat items with the `content` field set:
+Click the pencil icon and go to the **Content** tab, then add some content for your `message` field. Also add some repeat items with the `content` field set:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534818994/handlebars-03_f2cx6d.png">
 
-Click **Publish** to save your content, then view your mod:
+Click **Save & Publish** to save your content, then view your mod:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534819092/handlebars-04_lvkjud.png">
 

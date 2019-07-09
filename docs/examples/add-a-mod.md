@@ -37,8 +37,6 @@ Click the **Clone** button to copy the mod into your project.
 
 ### 3. Add the mod to your page
 
-In the mod editor view, click the **Add to website** button in top right corner.
-
 First, paste the **mod tag** in the `<body>` wherever you want the mod to appear.
 
 Next, paste the **AnyMod script** just before the closing `</head>` tag of your web page.

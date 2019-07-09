@@ -7,7 +7,7 @@ In this example, we'll use AnyMod's built in `buildImage` method to manipulate a
 
 ### 1. Add an image to your mod
 
-Click **Settings** at the top of the page, then visit the **Fields** tab.
+Click the pencil icon at the top of the page, then visit the **Fields** tab.
 
 Add a field called `myImage` to your mod with type **Image**:
 
