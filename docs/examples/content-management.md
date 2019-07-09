@@ -12,7 +12,7 @@ Start with an empty mod, with nothing added. You can clone [this blank mod](http
 
 ### 2. Add a field named `content`
 
-In the **Fields** tab of the mod's settings, add a field named `content` with type `Rich text (HTML)`
+Click the pencil icon to open the editor, then in the **Fields** tab, add a field named `content` with type `Rich text (HTML)`
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-02_cyynqb.png"/>
 
 ### 3. Add the `content` field to your HTML panel
@@ -22,7 +22,7 @@ Use Handlebars HTML insertion syntax (`{{{` `}}}`) to automatically insert your 
 
 ### 4. Set a value for the `content` field
 
-Click the pencil icon and add some text to your `content` field. Click **Save & Publish**.
+Click the new field and add some text to your `content` field. Click **Save & Publish**.
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-04_ukwr7h.png"/>
 
 ### 5. Now your content is being inserted into your mod

@@ -33,7 +33,7 @@ Delete the existing content and replace it with your own. Click the **Save & Pub
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-03_lvqehh.png">
 
-Now your content should be showing in the preview pane:
+Now your content should be showing in the preview:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-04_oelu3u.png">
 

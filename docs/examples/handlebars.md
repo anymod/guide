@@ -7,13 +7,13 @@ In this example, we'll use [Handlebars](https://handlebarsjs.com/) to pre-compil
 
 ### 1. Set your mod to Handlebars mode
 
-Select Handlebars from the HTML panel dropdown:
+Select Handlebars from the HTML compile method dropdown:
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534817316/handlebars-01_nipjmm.png">
 
 ### 2. Add some custom fields
 
-Click **Settings** at the top of the page, then visit the **Fields** tab.
+Click the code icon (`< >`) to edit the mod's code, then visit the **Fields** tab.
 
 Add 2 fields to your mod:
 

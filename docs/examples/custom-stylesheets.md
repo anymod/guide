@@ -22,7 +22,7 @@ Without any CSS, the result looks very basic:
 
 ### 3. Add a stylesheet
 
-Click the gear (cog) in the header of the CSS panel to open the CSS settings.  From there, you can either choose a stylesheet from the dropdown menu or paste a URL to other stylesheets.
+Click **CSS Assets**.  From there, you can either choose a stylesheet from the dropdown menu or paste a URL to other stylesheets.
 
 ::: tip
 In the dropdown shown below, the first few stylesheet options are "Namespaced". Using these stylesheets will only affect your mods, while styles you add from other external stylesheets will be applied to your entire page. See [Namespaced CSS](/guide/namespaced-css.html) for more details.

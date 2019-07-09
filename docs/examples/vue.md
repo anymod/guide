@@ -15,7 +15,7 @@ Create or clone a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 ### 2. Add the Vue.js script
 
-Click the settings gear in the JavaScript panel. Then from the dropdown menu, click **Vue.js** to add the Vue.js script.
+Click the code icon (`< >`) to edit the mod's code, then JS Assets. In the dropdown select **Vue.js** to add the Vue.js script.
 
 <img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534466412/vue-01_le1kre.png">
 

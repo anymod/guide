@@ -98,7 +98,7 @@ To edit content from the Anymod dashboard, click the pencil icon at the top of a
 
 This will open the same interface as the on-page editor, and will allow you to make content edits.
 
-To edit code from the Anymod dashboard, make changes to the HTML, CSS, or JS panels and then click `Save` at the top of the page.
+To edit code from the Anymod dashboard, make changes to the HTML, CSS, or JS panels and then click `Save & Publish` at the top of the page.
 
 ::: tip
 Try it: [click here](https://anymod.com/mod/ekaob) to clone the above mod and start making edits.
