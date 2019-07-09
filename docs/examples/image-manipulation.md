@@ -11,11 +11,11 @@ Click the pencil icon at the top of the page, then visit the **Fields** tab.
 
 Add a field called `myImage` to your mod with type **Image**:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534900634/image-manipulation-01_agnlns.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/image-1a-add-field.png">
 
 Now click on the `myImage` link and upload an image:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534901106/image-manipulation-02_olaxx8.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/image-1b-add-image.png">
 
 ### 2. Manipulating the image
 
@@ -45,7 +45,7 @@ Here we have manipulated the image 4 different ways:
 3. **Crop** the image to 180&times;300px based on the center of the image (line 4)
 4. **Crop** the image to 180&times;300px based on face detection (line 5)
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534901783/image-manipulation-03_vgrd8c.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/image-2-result.png">
 
 ::: tip
 Refer to the guide section on [buildImage](/guide/global-methods.html#anymod-buildimage) for more options.

@@ -17,11 +17,11 @@ AnyMod has dozens of forms to choose from in the [library](https://anymod.com/li
 
 To add a form, choose from the library and click the "Clone" button in the top corner:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538094266/form-01_pax5gh.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/forms-from-library.png">
 
 Next follow the instructions on the bottom of the page:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/forms-from-library-add.png">
 
 Adding the AnyMod script and the mod tag to your page will cause the form to appear:
 

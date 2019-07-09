@@ -86,7 +86,7 @@ The following example is a [team page mod](https://anymod.com/mod/dmkdn), with t
 
 This mod is editable just like the basic content, with the on-page editor or via the AnyMod dashboard:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1537498106/cms-06_q3oyyo.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/cms-complex-content.png">
 
 Team members can be added and removed easily, or users can update their photos, bios, links, and more.
 
@@ -99,7 +99,7 @@ Click the pencil <sandbox-inline/> on the right, then click the team mod above t
 
 In addition to editing any mod's content, you can also optionally edit its code. This gives you full flexibility to extend mods to fit your exact needs.
 
-<img src="https://res.cloudinary.com/component/image/upload/v1537498566/cms-07_qgxqlu.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/cms-custom-code.png">
 
 ::: tip
 See the team mod's [code](https://anymod.com/mod/dmkdn) or read more about [customizing mods](/guide/custom-mods.html).

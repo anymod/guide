@@ -18,7 +18,7 @@ Add the following markup to your mod's HTML:
 
 Without any CSS, the result looks very basic:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534811821/stylesheet-01_vb1enh.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/custom-stylesheets-2-add-html.png">
 
 ### 3. Add a stylesheet
 
@@ -28,7 +28,7 @@ Click **CSS Assets**.  From there, you can either choose a stylesheet from the d
 In the dropdown shown below, the first few stylesheet options are "Namespaced". Using these stylesheets will only affect your mods, while styles you add from other external stylesheets will be applied to your entire page. See [Namespaced CSS](/guide/namespaced-css.html) for more details.
 :::
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534811821/stylesheet-02_f2f8y3.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/custom-stylesheets-3a-add-stylesheet.png">
 
 Bootstrap 4 is listed in the dropdown, but let's say we want to use Bootstrap 3 instead. In that case, we can find a CDN that has Bootstrap 3 (or host our own).  In this case, we can use the following URL from [Bootstrap CDN](https://www.bootstrapcdn.com/legacy/bootstrap/):
 
@@ -38,7 +38,7 @@ Copy and paste this URL into the mod input that says **Add external stylesheet**
 
 Now our mod has Bootstrap 3 styling applied to it:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534812261/stylesheet-03_mgxirt.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/custom-stylesheets-3b-add-stylesheet.png">
 
 ### 4. Add stylesheet tags to your page (optional)
 

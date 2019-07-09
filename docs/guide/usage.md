@@ -18,11 +18,11 @@ To install a mod on your page, do the following:
 
 Each mod has a `Clone` button in the top corner. Clicking this button creates a copy of the mod in your project.
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538699135/usage-01_qhd6we.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-clone.png">
 
 Follow the instructions on the bottom of the page in order to add the mod to your website:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538699346/usage-02_wxweff.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-add.png">
 
 ### Paste into your HTML
 
@@ -92,9 +92,9 @@ Try it: click the pencil <sandbox-inline/> on the right of this page, then click
 
 ### Editing from the Anymod dashboard
 
-To edit content from the Anymod dashboard, click the pencil icon at the top of a mod.
+To edit content from the Anymod dashboard, click the pencil icon at the top of the page.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436196/editable-02_pspkig.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-edit.png">
 
 This will open the same interface as the on-page editor, and will allow you to make content edits.
 

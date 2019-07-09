@@ -8,27 +8,32 @@ In this example, you'll see how to add editable content to any web page.
 ### 1. Create a blank mod
 
 Start with an empty mod, with nothing added. You can clone [this blank mod](https://anymod.com/mod/llaba) if desired.
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-01_njksxm.png"/>
+
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/cms-1-create-blank-mod.png">
 
 ### 2. Add a field named `content`
 
 Click the pencil icon to open the editor, then in the **Fields** tab, add a field named `content` with type `Rich text (HTML)`
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-02_cyynqb.png"/>
+
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/cms-2-add-content-field.png">
 
 ### 3. Add the `content` field to your HTML panel
 
 Use Handlebars HTML insertion syntax (`{{{` `}}}`) to automatically insert your field into the mod. For non-HTML fields (e.g. Plain Text), you can use a double mustache (`{{` `}}`) instead of a triple mustache.  See [Using Handlebars](/examples/handlebars.html) for more info.
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-03_figr30.png"/>
+
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/cms-3-add-content.png">
 
 ### 4. Set a value for the `content` field
 
 Click the new field and add some text to your `content` field. Click **Save & Publish**.
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-04_ukwr7h.png"/>
+
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/cms-4-set-content-value.png">
 
 ### 5. Now your content is being inserted into your mod
 
 It is visible in the preview pane.
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534372573/cms-05_wrrfav.png"/>
+
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/cms-5-preview.png">
 
 ### 6. Add the mod to any website or web app
 

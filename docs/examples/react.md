@@ -17,7 +17,7 @@ Create or clone a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 Click the code icon (`< >`) to edit the mod's code, then JS Assets. In the dropdown select **React JSX**
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534862351/js-01_zggtos.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/react-2-compile-method.png">
 
 ::: tip
 It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars** whenever using JSX or HTML that has curly braces (`{}`).
@@ -27,7 +27,7 @@ It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars
 
 Click **JS Assets**. From the dropdown menu, click **React** to add it first, followed by **React DOM** second.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-02_s1aakp.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/react-3-add-react-react-dom.png">
 
 ::: tip
 If you're using a bundle build of React, you can add the URL to your bundle instead of the React & ReactDOM scripts used here.
@@ -37,11 +37,11 @@ If you're using a bundle build of React, you can add the URL to your bundle inst
 
 Click the **Fields** tab and add a field called `message` with type set to **Simple text**
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464879/react-03a_ojthj1.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/react-4a-message-field.png">
 
 Click **Add field** and then click on the link for the `message` field. Add some text and click **Save & Publish**.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464878/react-03b_hszpkl.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/react-4b-message-field-content.png">
 
 ### 5. Write your React mod with JSX
 
@@ -78,6 +78,6 @@ h1 {
 
 When you click **Save & Publish**, your mod is automatically pre-compiled and displayed. It should look like the example below:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-03_vdgv2a.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/react-7-save-mod.png">
 
 Now you're ready to build any kind of mod you want using React.

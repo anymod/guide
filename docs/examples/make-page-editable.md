@@ -25,17 +25,17 @@ We're using a simple "Content block" mod for this example, but you can use & cus
 
 This will let you edit the content in your new mod.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436196/editable-02_pspkig.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/make-editable-3-edit.png">
 
 ### 4. Paste your content into the text editor
 
 Delete the existing content and replace it with your own. Click the **Save & Publish** button to publish your new content.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-03_lvqehh.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/make-editable-4a-paste-content.png">
 
 Now your content should be showing in the preview:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534437138/editable-04_oelu3u.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/make-editable-4b-preview.png">
 
 ### 5. Replace the HTML on your page
 

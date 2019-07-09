@@ -9,7 +9,7 @@ In this example, we'll use React JSX syntax in a mod.
 
 Select React JSX from the JS panel dropdown:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534862351/js-01_zggtos.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/jsx-1-compile-method.png">
 
 ::: tip
 It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars** whenever using JSX or HTML that has curly braces (`{}`).
@@ -19,7 +19,7 @@ It's a good idea to also set the HTML panel to **Plain** instead of **Handlebars
 
 Click the JS Assets tab. From the dropdown menu, click **React** to add it first, followed by **React DOM** second.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464273/react-02_s1aakp.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/jsx-2-add-react.png">
 
 ::: tip
 If you're using a bundle build of React, you can add the URL to your bundle instead of the React & ReactDOM scripts used here.
@@ -69,7 +69,7 @@ Saving the mod will reload its preview, which should look like:
   <p>Hello, Stranger.</p>
 </div>
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534866816/jsx-02_phapgd.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/jsx-4-result.png">
 
 The above JSX is pre-compiled into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
 

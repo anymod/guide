@@ -9,7 +9,7 @@ In this example, we'll use Sass's [SCSS](https://sass-lang.com/guide) to pre-com
 
 Select SCSS from the CSS panel dropdown:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534859338/scss-01_bso3fg.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/scss-1-compile-method.png">
 
 ### 2. Add some HTML
 
@@ -22,7 +22,7 @@ Add some HTML to the mod that you want to style. In this example, we'll add a bu
 
 This gives a mod with some plain, unstyled text:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534860297/scss-02_mcga5h.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/scss-2-add-html.png">
 
 ### 3. Add SCSS
 
@@ -60,7 +60,7 @@ font-family: sans-serif;
 
 This gives us a styled `h2` and button:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534860950/scss-03_aihdtb.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/scss-3-styled-result.png">
 
 ::: tip
 Any CSS rules that aren't applied inside of a selector (like line 3 above, `font-family: sans-serif;`), are automatically applied to the top-level of the mod.
