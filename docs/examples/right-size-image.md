@@ -9,15 +9,15 @@ With this approach, we can have high-resolution when needed but also have fast p
 
 ### 1. Add an image to your mod
 
-Click **Settings** at the top of the page, then visit the **Fields** tab.
+Click the pencil icon at the top of the page, then visit the **Fields** tab.
 
 Add a field called `myImage` to your mod with type **Image**:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534900634/image-manipulation-01_agnlns.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/right-size-image-1a-add-field.png">
 
 Now click on the `myImage` link and upload an image:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534902407/right-size-02_bsc6ez.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/right-size-image-1b-add-image.png">
 
 ### 2. Scaling the image based on screen size
 
@@ -56,4 +56,4 @@ The final result is an image that is a different size based on the width of the 
 
 If the window is 1200px wide, the image will be 1300px wide. If the window is 420px wide, the image will be 500px wide, and so on.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534905485/right-size-03_ilqabw.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/right-size-image-3-result.png">

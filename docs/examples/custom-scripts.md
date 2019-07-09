@@ -37,15 +37,15 @@ Without the external library, the console will throw an error and nothing shows 
 
 ### 3. Add an external script
 
-Click the gear (cog) in the header of the JS panel to open the mod's JavaScript settings.  From there, you can either choose a script from the dropdown menu or paste a URL to other scripts.
+Click the JS Assets tab.  From there, you can either choose a script from the dropdown menu or paste a URL to other scripts.
 
 Paste the URL for the Google Charts script: `https://www.gstatic.com/charts/loader.js`
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534813793/script-01_ear7dg.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/custom-scripts-3a-add-script.png">
 
 Now when our mod runs, the JavaScript will function properly, and we get a nice Pie Chart:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534814117/script-02_wi7svt.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/custom-scripts-3b-add-script.png">
 
 ::: tip
 See the mod from this example [here](https://anymod.com/mod/oorna)

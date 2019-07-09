@@ -4,11 +4,13 @@ lang: en-US
 ---
 
 # General usage
+
 <sandbox/>
 
 ## Installing a mod
 
 To install a mod on your page, do the following:
+
 1. Add or clone the mod into your project
 2. Paste the Anymod script and mod tag to your HTML
 
@@ -16,11 +18,11 @@ To install a mod on your page, do the following:
 
 Each mod has a `Clone` button in the top corner. Clicking this button creates a copy of the mod in your project.
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538699135/usage-01_qhd6we.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-clone.png">
 
-When a mod is in your project, it will have an `Add to website` button at the top next to the `Clone` button. Clicking this button gives instructions on how to add the mod to your web page:
+Follow the instructions on the bottom of the page in order to add the mod to your website:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538699346/usage-02_wxweff.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-add.png">
 
 ### Paste into your HTML
 
@@ -51,12 +53,12 @@ Now when you load the page, the mod appears:
   <mod mod-key="mklmd"/>
 </div>
 
-To add multiple mods to a page, paste each mod wherever you want: 
+To add multiple mods to a page, paste each mod wherever you want:
 
 ```html
 <!-- Card with top image -->
 <div id="anymod-ekaob"></div>
-<br>
+<br />
 <!-- GitHub button -->
 <div id="anymod-nbdal"></div>
 ```
@@ -76,6 +78,7 @@ Only add the Anymod script once, even if you have many mods on a page.
 ## Editing a mod
 
 There are two ways to edit a mod:
+
 - Edit **content** directly from your own web page; or
 - Edit **content & code** in the Anymod dashboard
 
@@ -89,13 +92,13 @@ Try it: click the pencil <sandbox-inline/> on the right of this page, then click
 
 ### Editing from the Anymod dashboard
 
-To edit content from the Anymod dashboard, click the `Content` button at the top of a mod.
+To edit content from the Anymod dashboard, click the pencil icon at the top of the page.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534436196/editable-02_pspkig.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/usage-edit.png">
 
 This will open the same interface as the on-page editor, and will allow you to make content edits.
 
-To edit code from the Anymod dashboard, make changes to the HTML, CSS, or JS panels and then click `Save` at the top of the page.
+To edit code from the Anymod dashboard, make changes to the HTML, CSS, or JS panels and then click `Save & Publish` at the top of the page.
 
 ::: tip
 Try it: [click here](https://anymod.com/mod/ekaob) to clone the above mod and start making edits.

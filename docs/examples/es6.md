@@ -9,7 +9,7 @@ In this example, we'll use ES6 / ES2015 JavaScript in a mod.
 
 Select Babel from the JS panel dropdown:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534862351/js-01_zggtos.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/es6-1-compile-method.png">
 
 ::: tip
 [Babel](https://babeljs.io/docs/en) is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript.
@@ -68,7 +68,7 @@ Saving the mod will reload its preview, which should look like:
   <div>This mod is bkkan</div>
 </div>
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534863933/es6-02_jxgjb3.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/es6-4-result.png">
 
 Babel has pre-compiled the above ES6 / ES2015 JavaScript into "regular" ES5 JavaScript as shown below, and this JavaScript is what ultimately runs in the browser when the mod is loaded:
 

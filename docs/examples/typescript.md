@@ -9,7 +9,7 @@ In this example, we'll use TypeScript in a mod.
 
 Select TypeScript from the JS panel dropdown:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534862351/js-01_zggtos.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/typescript-1-compile-method.png">
 
 ### 2. Add some TypeScript
 
@@ -62,7 +62,7 @@ Saving the mod will reload its preview, which should look like:
   <div>Sammy the Python moved 34m.</div>
 </div>
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534898117/typescript-02_sbfqrv.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/typescript-3-result.png">
 
 The above TypeScript is pre-compiled into "regular" ES5 JavaScript automatically, and this JavaScript is what ultimately runs in the browser when the mod is loaded.
 

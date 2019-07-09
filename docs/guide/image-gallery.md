@@ -4,6 +4,7 @@ lang: en-US
 ---
 
 # Image galleries
+
 <sandbox/>
 
 ## How it works
@@ -43,11 +44,11 @@ AnyMod has dozens of galleries to choose from in the [library](https://anymod.co
 
 To add a gallery, choose from the library and click the "Clone" button in the top corner:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538154150/gallery-04_wkvd2r.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/image-gallery-from-library.png">
 
-Next click "Add to webpage" in the top corner, then follow the installation instructions:
+Next follow the instructions on the bottom of the page:
 
-<img src="https://res.cloudinary.com/component/image/upload/v1538094487/form-02_rjan9p.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/image-gallery-from-library-add.png">
 
 Adding the AnyMod script and the mod tag to your page will cause the gallery to appear:
 

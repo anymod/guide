@@ -15,9 +15,9 @@ Create or clone a [blank mod](https://anymod.com/mod/llaba) to get started.
 
 ### 2. Add the Vue.js script
 
-Click the settings gear in the JavaScript panel. Then from the dropdown menu, click **Vue.js** to add the Vue.js script.
+Click the code icon (`< >`) to edit the mod's code, then JS Assets. In the dropdown select **Vue.js** to add the Vue.js script.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534466412/vue-01_le1kre.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/vue-2-add-script.png">
 
 ::: tip
 If you're using a bundle build with Vue, you can add the URL to your bundle instead of the Vue script used here.
@@ -25,13 +25,13 @@ If you're using a bundle build with Vue, you can add the URL to your bundle inst
 
 ### 3. Add a field called `message`
 
-Click the **Fields** tab in the settings window, and add a field called `message` with type set to **Simple text**
+Click the **Fields** tab and add a field called `message` with type set to **Simple text**
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464879/react-03a_ojthj1.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/vue-3a-message-field.png">
 
-Click **Add field** and then click on the link for the `message` field. Add some text and click **Publish**.
+Click **Add field** and then click on the link for the `message` field. Add some text and click **Save & Publish**.
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534464878/react-03b_hszpkl.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/vue-3b-message-field-content.png">
 
 ### 4. Write your Vue mod
 
@@ -76,8 +76,8 @@ h2 {
 
 ### 6. Save your mod
 
-When you click **Save**, your mod is automatically pre-compiled and displayed. It should look like the example below:
+When you click **Save & Publish**, your mod is automatically pre-compiled and displayed. It should look like the example below:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534467056/vue-02_gfvu6i.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/vue-6-save.png">
 
 Now you're ready to build any kind of mod you want using Vue.js.

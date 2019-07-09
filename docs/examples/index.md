@@ -15,7 +15,8 @@ lang: en-US
 |:------------- |:------------- |
 | [Manage content](/examples/content-management.html)| Edit live content with AnyMod |
 | [Make your page editable](/examples/make-page-editable.html) | Make an existing web page editable |
-| [Create a draft](/examples/create-a-draft.html) | Edit and preview content before publishing |
+
+<!-- | [Create a draft](/examples/create-a-draft.html) | Edit and preview content before publishing | -->
 
 ### Build & customize mods
 

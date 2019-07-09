@@ -7,13 +7,13 @@ In this example, we'll use [Handlebars](https://handlebarsjs.com/) to pre-compil
 
 ### 1. Set your mod to Handlebars mode
 
-Select Handlebars from the HTML panel dropdown:
+Select Handlebars from the HTML compile method dropdown:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534817316/handlebars-01_nipjmm.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/handlebars-1-compile-method.png">
 
 ### 2. Add some custom fields
 
-Click **Settings** at the top of the page, then visit the **Fields** tab.
+Click the code icon (`< >`) to edit the mod's code, then visit the **Fields** tab.
 
 Add 2 fields to your mod:
 
@@ -22,9 +22,7 @@ Add 2 fields to your mod:
 
 Your mod fields should look like this:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534818721/handlebars-02_mtq2fb.png">
-
-Click **Insert in HTML** for each field to automatically add the Handlebars markup to your mod's HTML.
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/handlebars-2-add-fields.png">
 
 Your mod's HTML panel should now read
 
@@ -42,13 +40,13 @@ Notice that we've used two curly braces to insert simple text (`{{` `}}`), while
 
 ### 3. Add content to your fields
 
-Click **Content** at the top of the page, then add some content for your `message` field. Also add some repeat items with the `content` field set:
+Click the pencil icon and go to the **Content** tab, then add some content for your `message` field. Also add some repeat items with the `content` field set:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534818994/handlebars-03_f2cx6d.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/handlebars-3a-add-content.png">
 
-Click **Publish** to save your content, then view your mod:
+Click **Save & Publish** to save your content, then view your mod:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534819092/handlebars-04_lvkjud.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/handlebars-3b-save.png">
 
 The mod's fields are being filled in with Handlebars.
 
@@ -70,7 +68,7 @@ You can insert text anywhere in your HTML using Handlebars. Try updating your HT
 
 Now change the value of `message` from "Hello, World!" to "green". As written, this will be inserted into the `style` attribute of the `div` on line 1 as well as inside the div itself (line 2).  The result will be:
 
-<img src="https://res.cloudinary.com/component/image/upload/c_scale,w_1200/v1534819739/handlebars-05_vb0zpn.png">
+<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/examples/handlebars-4-customize.png">
 
 Using this approach, you can add content, styles, and more to your mod's HTML using Handlebars.
 
