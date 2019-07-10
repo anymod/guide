@@ -16,7 +16,7 @@ AnyMod has pre-built social media mods so that you don't have to dig through doc
 
 That's all you need. No more digging through documentation for each widget.
 
-## Popular widgets in the library
+## Ready-to-use social widgets
 
 AnyMod has dozens of mods for popular services, including:
 

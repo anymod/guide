@@ -38,11 +38,11 @@ Clicking the gallery opens the content editor, which can be used to make live, r
 The three images above are actually mods: click the pencil <sandbox-inline/> on the right, then click an image to edit it.
 :::
 
-## From the library
+## Ready-to-use galleries
 
 AnyMod has dozens of galleries to choose from ([see galleries](https://anymod.com/mods?tag=galleries)).
 
-To add a gallery, choose from the library and click the "Clone" button in the top corner:
+To add a gallery, click the "Clone" button in the top corner:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/image-gallery-from-library.png">
 

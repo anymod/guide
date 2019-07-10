@@ -14,9 +14,9 @@ If you have an idea for a mod you’d like to see, let us know and we may build 
   <mod :mod-key="'nmamd'"/>
 </div>
 
-## Submit a mod to the library
+## Submit a mod to be verified
 
-If you've built a mod and want to share it with other developers, suggest it here and we may add it to the library.
+If you've built a mod and want to share it with other developers, suggest it here and we may verify it.
 
 <div class="mod-container">
   <!-- Submission form -->

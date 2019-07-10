@@ -64,4 +64,4 @@ AnyMod has free, open-source [mods](https://anymod.com/mods) to support your pro
 
 Verified mods have been screened for quality, browser compatibility, and security. We publish a weekly overview with new mods called [Module Monday](/module-monday/).
 
-Our goal at AnyMod is to make it easy to add rich features to any website or web app. We are always adding new mods to our library, and we love working closely with developers and teams to help build a better Internet.
+Our goal at AnyMod is to make it easy to add rich features to any website or web app. We are always adding new mods, and we love working closely with developers and teams to help build a better Internet.
