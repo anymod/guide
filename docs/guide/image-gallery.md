@@ -40,7 +40,7 @@ The three images above are actually mods: click the pencil <sandbox-inline/> on 
 
 ## From the library
 
-AnyMod has dozens of galleries to choose from in the [library](https://anymod.com/library?tag=galleries).
+AnyMod has dozens of galleries to choose from ([see galleries](https://anymod.com/mods?tag=galleries)).
 
 To add a gallery, choose from the library and click the "Clone" button in the top corner:
 

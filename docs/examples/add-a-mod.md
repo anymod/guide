@@ -29,7 +29,7 @@ Opening this file in our browser, the page looks like this:
 
 ### 2. Add a mod
 
-To add a mod to the page, first find a mod that you like (the [Library](https://anymod.com/library) is a good place to look!).
+To add a mod to the page, first find a mod that you like ([see mods](https://anymod.com/mods)).
 
 For this example, we'll add an animated timeline, which you can find [here](https://anymod.com/mod/oollr?v=30)
 

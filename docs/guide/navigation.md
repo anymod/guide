@@ -29,7 +29,7 @@ Be sure to also paste the AnyMod script on pages where you want mods to show. Se
 
 ## Types of navs
 
-The AnyMod [library](https://anymod.com/library) has dozens of navigation elements with different styles and layouts:
+There are dozens of [navigation mods](https://anymod.com/mods?tag=navigation) with different styles and layouts:
 
 ```html
 <!-- Material Design sidenav -->
@@ -43,6 +43,7 @@ The AnyMod [library](https://anymod.com/library) has dozens of navigation elemen
 <!-- Tabbed navigation -->
 <div id="anymod-dmkon"></div>
 ```
+
 <!-- Tabbed content Nav-03 -->
 <mod mod-key="dmkon"/>
 
@@ -50,18 +51,20 @@ The AnyMod [library](https://anymod.com/library) has dozens of navigation elemen
 <!-- Dropdown menu -->
 <div id="anymod-mkldd"></div>
 ```
+
 <!-- Dropdown menu Nav-04 -->
 <mod mod-key="mkldd"/>
 
 ::: tip
 The mods above are live: click them to interact.
 
-You can clone the above mods into your project if desired: 
+You can clone the above mods into your project if desired:
+
 - [Bootstrap navbar](https://anymod.com/mod/oorba?v=20)
 - [Material Design sidenav](https://anymod.com/mod/aklor?v=20)
 - [Tabbed navigation](https://anymod.com/mod/dmkon?v=20)
 - [Dropdown menu](https://anymod.com/mod/mkldd?v=20)
-:::
+  :::
 
 ## Custom navigation
 
@@ -75,10 +78,10 @@ Say we want to customize the `Bootstrap navbar` mod above. We can do so by addin
 <!-- Bootstrap navbar (edited) -->
 <div id="anymod-kodmb"></div>
 ```
+
 <!-- Bootstrap navbar (edited) Nav-05 -->
 <mod mod-key="kodmb"/>
 
 ::: tip
 Compare the changes: [before](https://anymod.com/mod/oorba?v=20) and [after](https://anymod.com/mod/kodmb?v=20).
 :::
-

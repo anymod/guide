@@ -12,9 +12,9 @@ AnyMod lets you easily add features to any website or web app.
 - [Image galleries](/guide/image-gallery.html)
 - [Navigation](/guide/navigation.html)
 - [Social media](/guide/social-media.html)
-<!-- - [Custom features & more](/guide/custom-mods.html) // TODO -->
+  <!-- - [Custom features & more](/guide/custom-mods.html) // TODO -->
 
-**Mods** are modular features that you can add from the [library](https://anymod.com/library) and then extend, share, and customize, or create from scratch. They make building website features fast, simple, and repeatable.
+**Mods** are modular features that you can extend, share, and customize, or create from scratch. They make building website features fast, simple, and repeatable.
 
 Mods are designed to work with **ANY** web technology, from plain HTML to WordPress, PHP, Ruby on Rails, Node.js & more, and with the latest frameworks like React & Vue.js or with classics like jQuery. Mods work on both new & existing websites.
 
@@ -56,12 +56,12 @@ This all results in a fast, repeatable workflow across all of your mods and proj
 
 Mods work in all major browsers beyond IE8. This includes Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
 
-Mods are fully indexed by Google and appear in search results alongside other page content. Bing has announced its rollout of indexing for JavaScript, but search results on Bing may not include mod content at this time.  Yahoo uses both Google and Bing for its search results, while Ask.com also fully indexes mod content like Google does.
+Mods are fully indexed by Google and appear in search results alongside other page content. Bing has announced its rollout of indexing for JavaScript, but search results on Bing may not include mod content at this time. Yahoo uses both Google and Bing for its search results, while Ask.com also fully indexes mod content like Google does.
 
-## Library of mods
+## Open-source mods
 
-AnyMod offers an open-source [library](https://anymod.com/library) of mods to support your projects. You can use these mods as-is in any project you choose, or you can clone, edit, and reuse library mods wherever you need them.
+AnyMod has free, open-source [mods](https://anymod.com/mods) to support your projects. You can use these mods as-is in any project you choose, or you can clone, edit, and reuse mods wherever you need them.
 
-Mods in our library have been screened for quality, browser compatibility, and security. We publish a weekly overview with new mods called [Module Monday](/module-monday/).
+Verified mods have been screened for quality, browser compatibility, and security. We publish a weekly overview with new mods called [Module Monday](/module-monday/).
 
 Our goal at AnyMod is to make it easy to add rich features to any website or web app. We are always adding new mods to our library, and we love working closely with developers and teams to help build a better Internet.

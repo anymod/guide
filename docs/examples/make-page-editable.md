@@ -18,7 +18,7 @@ For this example, we'll use a block of content on a simple web page:
 In the AnyMod dashboard, click **New Mod** and then choose the "Content block" mod. Or you can clone the content block mod [here](https://anymod.com/mod/errba).
 
 ::: tip
-We're using a simple "Content block" mod for this example, but you can use & customize any other mod to have editable content too. See the [mod library](https://anymod.com/library) for more options.
+We're using a simple "Content block" mod for this example, but you can use & customize any other mod to have editable content too. [Browse mods](https://anymod.com/mods) for more options.
 :::
 
 ### 3. Click the pencil icon
@@ -78,4 +78,5 @@ Click the pencil and then select your mod to make live edits directly from your 
 The editor pencil will show on your web page whenever you're logged in to AnyMod. It won't show for your site visitors.
 
 <!-- To allow others to make edits, you can either add them to the project on AnyMod, or you can [create a draft](/examples/create-a-draft.html) and send them the link to make edits. -->
+
 :::

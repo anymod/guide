@@ -13,7 +13,7 @@ You can collect form responses in the AnyMod dashboard or send the responses any
 
 ## From the library
 
-AnyMod has dozens of forms to choose from in the [library](https://anymod.com/library?tag=forms). These forms will work automatically, unless they specifically mention using with an external service like MailChimp.
+AnyMod has dozens of forms to choose from ([see forms](https://anymod.com/mods?tag=forms)). These forms will work automatically, unless they specifically mention using with an external service like MailChimp.
 
 To add a form, choose from the library and click the "Clone" button in the top corner:
 
