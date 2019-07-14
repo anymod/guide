@@ -7,12 +7,12 @@ lang: en-US
 
 ## Setup
 
-To use modules with [React](https://facebook.github.io/react/), add the mod tag via React's `render` and call `Anymod.render()` when the React component has mounted:
+To use modules with [React](https://facebook.github.io/react/), add the mod tag via React's `render` and call `AnyMod.render()` when the React component has mounted:
 
 ```js
 class Demo extends React.Component {
   componentDidMount () {
-    Anymod.render()
+    AnyMod.render()
   }
   render () {
     // Card with top image
@@ -24,7 +24,7 @@ class Demo extends React.Component {
 React requires you to use quotation marks (`"`) for attributes.
 :::
 
-You can use `Anymod.render()` by itself or with a callback or promise. See the section on [Anymod.render](/guide/global-methods.html#anymod-render) for more.
+You can use `AnyMod.render()` by itself or with a callback or promise. See the section on [AnyMod.render](/guide/global-methods.html#anymod-render) for more.
 
 ## Example
 
@@ -51,16 +51,16 @@ render () {
 
 ## Create React App
 
-If you are using [Create React App](https://github.com/facebook/create-react-app) or another ESLint tool, you may encounter an error along the lines of `'Anymod' is not defined  no-undef`.  In this case, you should add the following to the top of any files using `Anymod.render()`:
+If you are using [Create React App](https://github.com/facebook/create-react-app) or another ESLint tool, you may encounter an error along the lines of `'AnyMod' is not defined  no-undef`.  In this case, you should add the following to the top of any files using `AnyMod.render()`:
 
-`/* global Anymod */`
+`/* global AnyMod */`
 
 You can learn more about this solution [here](https://eslint.org/docs/rules/no-undef#rule-details).
 
 ## Re-rendering
 
-You can call `Anymod.render()` as often as you'd like in your React component (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `Anymod.render()` will use that data instead of making another API call.
+You can call `AnyMod.render()` as often as you'd like in your React component (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `AnyMod.render()` will use that data instead of making another API call.
 
 ::: tip
-See the section on [Anymod.render](/guide/global-methods.html#anymod-render) for more.
+See the section on [AnyMod.render](/guide/global-methods.html#anymod-render) for more.
 :::

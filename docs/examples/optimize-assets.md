@@ -50,22 +50,22 @@ Following the suggestion, we can paste the asset tags into the document's `<head
 <head>
   <title>Example web page</title>
 
-  <!-- Anymod assets -->
+  <!-- AnyMod assets -->
   <link href="https://cdn.anymod.com/anymod.namespaced.a01.bootstrap-v4.1.css" rel="stylesheet">
   <link href="https://cdn.anymod.com/anymod.namespaced.a04.bulma-v0.7.css" rel="stylesheet">
   <script defer src="https://www.google.com/recaptcha/api.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <!-- /Anymod assets -->
+  <!-- /AnyMod assets -->
 
-  <!-- Anymod script -->
-  <script id="Anymod-script">
+  <!-- AnyMod script -->
+  <script id="AnyMod-script">
     (function (m,o,d,u,l,a,r,i,z,e) {
       u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
       e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
-    })('Anymod','87M478','https://cdn.anymod.com/v2',window,document,'script',{});
+    })('AnyMod','87M478','https://cdn.anymod.com/v2',window,document,'script',{});
   </script>
-  <!-- /Anymod script -->
+  <!-- /AnyMod script -->
 </head>
 ```
 

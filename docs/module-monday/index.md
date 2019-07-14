@@ -9,7 +9,7 @@ Module Monday is a weekly collection of open-source mods you can use to quickly 
 
 See new mods as we release them in any of the following ways:
 
-- By following on [Dev.to](https://dev.to/tyrw), [Twitter](https://twitter.com/AnymodDev), or [Medium](https://medium.com/anymod)
+- By following on [Dev.to](https://dev.to/tyrw), [Twitter](https://twitter.com/AnyModDev), or [Medium](https://medium.com/anymod)
 - By signing up for [AnyMod](https://anymod.com)
 - By subscribing to the [mailing list](https://anymod.us17.list-manage.com/subscribe?u=8d6f80723bc1252c9882e7d3f&id=b334c54b7e)
 

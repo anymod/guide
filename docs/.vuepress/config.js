@@ -20,12 +20,12 @@ module.exports = {
     /* Production scripts */
     [
       "script",
-      { id: "Anymod-script" },
-      "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('Anymod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script', { toolkit: false });"
+      { id: "AnyMod-script" },
+      "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('AnyMod','8PP6M2','https://cdn.anymod.com/v2',window,document,'script', { toolkit: false });"
     ],
     ["script", { src: "https://cdn.anymod.com/anymod.com.sandbox.js" }],
     /* Local scripts */
-    // ['script', { id: 'Anymod-script' }, "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=['http://localhost:5000/v2/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('Anymod','8PP6M2','http://localhost:4000/v2',window,document,'script', { toolkit: false });"],
+    // ['script', { id: 'AnyMod-script' }, "(function (m,o,d,u,l,a,r,i,z,e) {u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;e=['http://localhost:5000/v2/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});})('AnyMod','8PP6M2','http://localhost:4000/v2',window,document,'script', { toolkit: false });"],
     // ['script', { src: 'http://localhost:4000/anymod.com.sandbox.js' }],
     /* Scripts for mods */
     [
@@ -204,7 +204,7 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page"
   },
-  extendMarkdown (md) {
+  extendMarkdown(md) {
     return {
       lineNumbers: true
     };

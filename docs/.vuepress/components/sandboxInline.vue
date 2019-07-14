@@ -8,7 +8,7 @@
 export default {
   methods: {
     launch() {
-      Anymod.Event && Anymod.Event.emit("sandbox:overlay:open");
+      AnyMod.Event && AnyMod.Event.emit("sandbox:overlay:open");
     }
   }
 };

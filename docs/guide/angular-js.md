@@ -7,7 +7,7 @@ lang: en-US
 
 ## Setup
 
-To use mods with [AngularJS v1](https://angularjs.org/), add the mod tag in an Angular template and call `Anymod.render()` to render the mods.
+To use mods with [AngularJS v1](https://angularjs.org/), add the mod tag in an Angular template and call `AnyMod.render()` to render the mods.
 
 One way to do this is in your HTML template and your controller:
 
@@ -18,7 +18,7 @@ One way to do this is in your HTML template and your controller:
 ```
 ```js
 angular.module('myApp').controller('myCtrl', [function () {
-  Anymod.render()
+  AnyMod.render()
 }])
 ```
 
@@ -34,7 +34,7 @@ angular.module('myApp').directive('demo', [function () {
   return {
     template: '<div id="anymod-aklnr"></div>',
     link: function (scope, ele, attrs) {
-      Anymod.render()
+      AnyMod.render()
     }
   }
 }])
@@ -42,7 +42,7 @@ angular.module('myApp').directive('demo', [function () {
 
 Either way works equally well, so you can use whichever method you prefer.
 
-You can use `Anymod.render()` by itself or with a callback or promise. See the section on [Anymod.render](/guide/global-methods.html#anymod-render) for more.
+You can use `AnyMod.render()` by itself or with a callback or promise. See the section on [AnyMod.render](/guide/global-methods.html#anymod-render) for more.
 
 ## Example
 
@@ -52,7 +52,7 @@ The following example shows 2 mods being rendered: 1 with the directive approach
 
 ## Rendering multiple mods
 
-You can render multiple mods the same way as a single mod, and you only need to call `Anymod.render()` once:
+You can render multiple mods the same way as a single mod, and you only need to call `AnyMod.render()` once:
 
 ```html
 <div ng-controller="myCtrl">
@@ -66,14 +66,14 @@ You can render multiple mods the same way as a single mod, and you only need to 
 ```
 ```js
 angular.module('myApp').controller('myCtrl', [function () {
-  Anymod.render()
+  AnyMod.render()
 }])
 ```
 
 ## Re-rendering
 
-You can call `Anymod.render()` as often as you'd like in your Angular code (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `Anymod.render()` will use that data instead of making another API call.
+You can call `AnyMod.render()` as often as you'd like in your Angular code (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `AnyMod.render()` will use that data instead of making another API call.
 
 ::: tip
-See the section on [Anymod.render](/guide/global-methods.html#anymod-render) for more.
+See the section on [AnyMod.render](/guide/global-methods.html#anymod-render) for more.
 :::

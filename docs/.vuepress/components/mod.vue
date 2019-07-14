@@ -3,10 +3,10 @@
 </template>
 
 <script>
-  export default {
-    props: ['modKey'],
-    mounted() {
-      if (window.Anymod) Anymod.ready(() => Anymod.render())
-    }
+export default {
+  props: ["modKey"],
+  mounted() {
+    if (window.AnyMod) AnyMod.ready(() => AnyMod.render());
   }
+};
 </script>

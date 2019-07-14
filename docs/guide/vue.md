@@ -23,7 +23,7 @@ new Vue({
 
 ## Inside a custom Vue component
 
-To use mods inside a custom Vue component, call `Anymod.render()` once Vue has mounted:
+To use mods inside a custom Vue component, call `AnyMod.render()` once Vue has mounted:
 
 ```html
 <div id="demo">
@@ -40,7 +40,7 @@ Vue.component('my-component', {
 new Vue({
   el: '#demo',
   mounted: function () {
-    Anymod.render()
+    AnyMod.render()
   }
 })
 ```
@@ -68,15 +68,15 @@ You can render multiple mods the same way as a single mod, like so:
 new Vue({
   el: '#demo',
   mounted: function () {
-    Anymod.render()
+    AnyMod.render()
   }
 })
 ```
 
 ## Re-rendering
 
-You can call `Anymod.render()` as often as you'd like in your Vue.js component (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `Anymod.render()` will use that data instead of making another API call.
+You can call `AnyMod.render()` as often as you'd like in your Vue.js component (or elsewhere). This method will not lead to an API call every time; if a mod has already been fetched once, `AnyMod.render()` will use that data instead of making another API call.
 
 ::: tip
-See the section on [Anymod.render](/guide/global-methods.html#anymod-render) for more.
+See the section on [AnyMod.render](/guide/global-methods.html#anymod-render) for more.
 :::

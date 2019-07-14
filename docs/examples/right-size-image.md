@@ -35,12 +35,12 @@ Any rules defined in the mod's CSS panel will apply only to the mod and not to o
 
 Next, in the mod's JS panel, add the code below, which does the following:
 
-- Line 1: Use the built in `Anymod.buildImage` method ([docs](/guide/global-methods.html#anymod-buildimage)) to manipulate the image, which is available as `mod.data.myImage`
+- Line 1: Use the built in `AnyMod.buildImage` method ([docs](/guide/global-methods.html#anymod-buildimage)) to manipulate the image, which is available as `mod.data.myImage`
 - Line 2: Set the width of the image to `window.innerWidth - (window.innerWidth % 100) + 100`, which is always just a little bit wider than the current window size
 - Lines 6-8: Insert the image into the mod
 
 ```js
-var resizedImage = Anymod.buildImage(mod.data.myImage, { 
+var resizedImage = AnyMod.buildImage(mod.data.myImage, { 
   w: window.innerWidth - (window.innerWidth % 100) + 100, 
   c: 'limit'
 })

@@ -5,28 +5,28 @@ lang: en-US
 
 # Global methods
 
-`Anymod` is a global JavaScript object that provides access to all of the mods on a page along with several useful utility functions.
+`AnyMod` is a global JavaScript object that provides access to all of the mods on a page along with several useful utility functions.
 
-## Anymod.ready
+## AnyMod.ready
 
-**`Anymod.ready(callback)`**
+**`AnyMod.ready(callback)`**
 
-Executes a callback once the Anymod script has finished loading.
+Executes a callback once the AnyMod script has finished loading.
 
 #### Usage
 
 ```JS
-Anymod.ready(function () {
+AnyMod.ready(function () {
   console.log('Hello world!')
 })
-Anymod.ready(function () {
+AnyMod.ready(function () {
   console.log('Hello again!')
 })
 ```
 
 #### Result
 
-Runs the callbacks when Anymod has finished loading.
+Runs the callbacks when AnyMod has finished loading.
 
 ```
 Hello world!
@@ -34,27 +34,27 @@ Hello again!
 ```
 
 ::: tip
-You don't need to use `Anymod.ready()` in a mod's own code: it will already be ready.
+You don't need to use `AnyMod.ready()` in a mod's own code: it will already be ready.
 :::
 
-## Anymod.render
+## AnyMod.render
 
-**`Anymod.render(callback) -> [promise]`**
+**`AnyMod.render(callback) -> [promise]`**
 
-Renders mod tags that were added to the page after Anymod's initial run. Can be used with a callback or a promise.
+Renders mod tags that were added to the page after AnyMod's initial run. Can be used with a callback or a promise.
 
 #### Usage
 
 ```js
 // With a callback
-Anymod.render(function() {
+AnyMod.render(function() {
   console.log('Render complete')
 })
 ```
 
 ```js
 // With a promise
-Anymod.render()
+AnyMod.render()
 .then(function() {
   console.log('Render complete')
 })
@@ -78,28 +78,28 @@ Mod is rendered:
 
 #### Behavior
 
-Mods are rendered automatically when the Anymod script loads. However, you may not have all mods on the page at that time, so you can call `Anymod.render()` at any time to render mods that have been added since initial page load. There are a few scenarios where this may happen, and the behavior for each is shown below:
+Mods are rendered automatically when the AnyMod script loads. However, you may not have all mods on the page at that time, so you can call `AnyMod.render()` at any time to render mods that have been added since initial page load. There are a few scenarios where this may happen, and the behavior for each is shown below:
 
 | Scenario | Behavior |
 |:---------|:---------|
 | No unrendered mods | Execute promise or callback, if any. |
 | New, unrendered mods | Fetch data with single API call for all new mods, then render unrendered mods, then execute promise or callback, if any. |
-| Previously fetched (but now unrendered) mods | Use the existing data from `Anymod.Page` to render unrendered mods, then execute promise or callback, if any. |
+| Previously fetched (but now unrendered) mods | Use the existing data from `AnyMod.Page` to render unrendered mods, then execute promise or callback, if any. |
 
 ::: tip
-`Anymod.render()` is useful when using mods within modern JavaScript frameworks. See the Anymod guides for [React](/guide/react.html), [Vue.js](/guide/vue.html), or [Angular](/guide/angular.html) for more specifics.
+`AnyMod.render()` is useful when using mods within modern JavaScript frameworks. See the AnyMod guides for [React](/guide/react.html), [Vue.js](/guide/vue.html), or [Angular](/guide/angular.html) for more specifics.
 :::
 
-## Anymod( key )
+## AnyMod( key )
 
-**`Anymod(key)`**
+**`AnyMod(key)`**
 
 Returns the data object for a given mod.
 
 #### Usage
 
 ```js
-Anymod('abcde')
+AnyMod('abcde')
 ```
 
 #### Result
@@ -122,43 +122,43 @@ Anymod('abcde')
 Similarly, you can read a specific piece of data:
 
 ```js
-Anymod('abcde').data.message
+AnyMod('abcde').data.message
 // --> "Hello, world!"
 ```
 
-## Anymod.Project
+## AnyMod.Project
 
-You can get the current project at any time with `Anymod.Project`
+You can get the current project at any time with `AnyMod.Project`
 
 ```js
-Anymod.Project
+AnyMod.Project
 // -> "8PP6M2"
 ```
 
-## Anymod.ApiUrl
+## AnyMod.ApiUrl
 
-You can get the Anymod API URL with `Anymod.ApiUrl`
+You can get the AnyMod API URL with `AnyMod.ApiUrl`
 
 ```js
-Anymod.ApiUrl
+AnyMod.ApiUrl
 // -> "https://api.anymod.com/v2/"
 ```
 
-## Anymod.Event
+## AnyMod.Event
 
-Anymod comes with a built-in message bus for communication between mods or within your application. It is based on [Eev](https://github.com/chrisdavies/eev) and has three methods:
+AnyMod comes with a built-in message bus for communication between mods or within your application. It is based on [Eev](https://github.com/chrisdavies/eev) and has three methods:
 
-- **`Anymod.Event.on(`**`eventName, callback`**`)`**
+- **`AnyMod.Event.on(`**`eventName, callback`**`)`**
 
-  Listen for a custom event, which can be triggered by `Anymod.Event.emit`. The  `callback` will receive whatever `data` is emitted.
+  Listen for a custom event, which can be triggered by `AnyMod.Event.emit`. The  `callback` will receive whatever `data` is emitted.
 
-- **`Anymod.Event.off(`**`eventName, callback`**`)`**
+- **`AnyMod.Event.off(`**`eventName, callback`**`)`**
 
-  Remove custom event listener(s). `eventName` and `callback` must match the event as defined in `Anymod.Event.on`.
+  Remove custom event listener(s). `eventName` and `callback` must match the event as defined in `AnyMod.Event.on`.
 
-- **`Anymod.Event.emit(`**`eventName, data`**`)`**
+- **`AnyMod.Event.emit(`**`eventName, data`**`)`**
 
-  Trigger an event. Any additional arguments will be passed into the `callback` function for `Anymod.Event.on`.
+  Trigger an event. Any additional arguments will be passed into the `callback` function for `AnyMod.Event.on`.
 
 #### Usage
 
@@ -168,17 +168,17 @@ function logHello (data) {
 }
 
 // Create event listener
-Anymod.Event.on('custom:message', logHello)
+AnyMod.Event.on('custom:message', logHello)
 
 // Trigger event
-Anymod.Event.emit('custom:message', { name: 'everyone' })
+AnyMod.Event.emit('custom:message', { name: 'everyone' })
 // -> "Hello, everyone!"
 
 // Remove event listener
-Anymod.Event.off('custom:message', logHello)
+AnyMod.Event.off('custom:message', logHello)
 
 // Trigger event again
-Anymod.Event.emit('custom:message', { name: 'everyone' })
+AnyMod.Event.emit('custom:message', { name: 'everyone' })
 // -> Does nothing (event listener was removed with .off())
 ```
 
@@ -187,7 +187,7 @@ Anymod.Event.emit('custom:message', { name: 'everyone' })
 The following [mod](https://anymod.com/mod/nbkmn) has an event **listener** added:
 
 ```js
-Anymod.Event.on('updateMod', function(data) {
+AnyMod.Event.on('updateMod', function(data) {
   title.innerHTML = data.title
   text.innerHTML = data.text
 })
@@ -198,7 +198,7 @@ Anymod.Event.on('updateMod', function(data) {
 Open your browser console and run the following to update the mod:
 
 ```js
-Anymod.Event.emit('updateMod', { title: 'Hello, world', text: 'New text' })
+AnyMod.Event.emit('updateMod', { title: 'Hello, world', text: 'New text' })
 ```
 
 #### Example (emit)
@@ -206,7 +206,7 @@ Anymod.Event.emit('updateMod', { title: 'Hello, world', text: 'New text' })
 The following [mod](https://anymod.com/mod/kodbb) has an event **emitter** added:
 
 ```js
-Anymod.Event.emit('updateMod', {
+AnyMod.Event.emit('updateMod', {
   title: titleInput.value,
   text: textInput.value
 })
@@ -223,21 +223,21 @@ View the code for the [listener](https://anymod.com/mod/nbkmn) and [emitter](htt
 :::
 
 
-## Anymod.buildImage
+## AnyMod.buildImage
 
-**`Anymod.buildImage(image, { options })`**
+**`AnyMod.buildImage(image, { options })`**
 
 Resizes and crops an `image` based on `options` inputs.
 
 #### Usage
 
 ```js
-// Inside of Anymod editor JavaScript panel
-Anymod.buildImage(mod.data.image, { w: 300, h: 200, c: 'fill', g: 'face' })
+// Inside of AnyMod editor JavaScript panel
+AnyMod.buildImage(mod.data.image, { w: 300, h: 200, c: 'fill', g: 'face' })
 ```
 
 ```html
-<!-- Handlebars: inside of Anymod editor HTML panel -->
+<!-- Handlebars: inside of AnyMod editor HTML panel -->
 <img src="{{ buildImage image w=300 h=200 c='fill' g='face' }}" />
 ```
 
@@ -260,7 +260,7 @@ You can resize and crop the image in your JavaScript (JS panel) or with Handleba
 
 ```js
 // JavaScript (JS panel)
-var newImage = Anymod.buildImage(mod.data.image, { w: 400, h: 150, c: 'fill' })
+var newImage = AnyMod.buildImage(mod.data.image, { w: 400, h: 150, c: 'fill' })
 ```
 ```html
 <!-- Handlebars (HTML panel) -->
@@ -273,7 +273,7 @@ If the image has a face, you can smart crop by using the `g: 'face'` option:
 
 ```js
 // JavaScript (JS panel)
-var newImage = Anymod.buildImage(mod.data.image, { w: 150, h: 150, c: 'crop', g: 'face' })
+var newImage = AnyMod.buildImage(mod.data.image, { w: 150, h: 150, c: 'crop', g: 'face' })
 ```
 ```html
 <!-- Handlebars (HTML panel) -->
@@ -286,16 +286,16 @@ var newImage = Anymod.buildImage(mod.data.image, { w: 150, h: 150, c: 'crop', g:
 See the [image manipulation example](/examples/image-manipulation.html) for more.
 :::
 
-## Anymod.loadScript
+## AnyMod.loadScript
 
-**`Anymod.loadScript(url, callback, { options })`**
+**`AnyMod.loadScript(url, callback, { options })`**
 
 Loads a script tag into the `<body>` element as denoted by `url`. Executes an optional `callback` function once the script is loaded.
 
 #### Usage
 
 ```js
-Anymod.loadScript('https://www.google.com/recaptcha/api.js', function () {
+AnyMod.loadScript('https://www.google.com/recaptcha/api.js', function () {
   console.log('reCaptcha script has loaded.')
 }, { defer: true })
 ```
@@ -312,16 +312,16 @@ Anymod.loadScript('https://www.google.com/recaptcha/api.js', function () {
 You can add scripts directly to a mod without invoking `loadScript`. See [custom scripts](/examples/custom-scripts.html) for more.
 :::
 
-## Anymod.loadStylesheet
+## AnyMod.loadStylesheet
 
-**`Anymod.loadStylesheet(url, callback, { options })`**
+**`AnyMod.loadStylesheet(url, callback, { options })`**
 
 Loads a stylesheet tag into the `<head>` element as denoted by `url`. Executes an optional `callback` function once the stylesheet is loaded.
 
 #### Usage
 
 ```js
-Anymod.loadStylesheet('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css', function () {
+AnyMod.loadStylesheet('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css', function () {
   console.log('Bulma CSS has loaded.')
 }, { id: 'my-stylesheet' })
 ```

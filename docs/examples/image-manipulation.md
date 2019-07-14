@@ -25,10 +25,10 @@ Similarly, we can use AnyMod's built in `buildImage` method to manipulate the im
 
 ```js{2-5}
 var imageVersions = [
-  Anymod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'scale' }),
-  Anymod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'fill' }),
-  Anymod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'crop' }),
-  Anymod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'crop', g: 'face' })
+  AnyMod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'scale' }),
+  AnyMod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'fill' }),
+  AnyMod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'crop' }),
+  AnyMod.buildImage(mod.data.myImage, { w: 180, h: 300, c: 'crop', g: 'face' })
 ]
 
 imageVersions.map(function(image) {

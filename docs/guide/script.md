@@ -13,14 +13,14 @@ You can customize AnyMod's behavior on each page:
 To do this, edit the options parameter `{}`, which is the final argument of the AnyMod script:
 
 ```html{6}
-<!-- Anymod -->
-<script id="Anymod-script">
+<!-- AnyMod -->
+<script id="AnyMod-script">
   (function (m,o,d,u,l,a,r,i,z,e) {
     u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
     e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
-  })('Anymod','XXXXXX','https://cdn.anymod.com/v2',window,document,'script',{});
+  })('AnyMod','XXXXXX','https://cdn.anymod.com/v2',window,document,'script',{});
 </script>
-<!-- /Anymod -->
+<!-- /AnyMod -->
 ```
 
 The following parameters can be added inside the last `{}` argument of line 6 above:
