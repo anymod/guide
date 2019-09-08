@@ -132,6 +132,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       "/module-monday/": [
+        "/module-monday/54.html",
         "/module-monday/53.html",
         "/module-monday/52.html",
         "/module-monday/51.html",
