@@ -79,6 +79,7 @@ module.exports = {
           collapsable: false,
           children: [
             "/guide/usage.md",
+            "/guide/merge.html",
             "/guide/script.md",
             "/guide/global-methods.md",
             "/guide/react.md",
@@ -111,6 +112,7 @@ module.exports = {
         "/examples/make-page-editable.html",
         // "/examples/create-a-draft.html",
         // Build & customize mods
+        "/examples/merging-mods.html",
         "/examples/react.html",
         "/examples/vue.html",
         "/examples/custom-stylesheets.html",
@@ -212,7 +214,7 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page"
   },
-  extendMarkdown(md) {
+  extendMarkdown (md) {
     return {
       lineNumbers: true
     };
