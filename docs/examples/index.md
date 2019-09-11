@@ -22,6 +22,7 @@ lang: en-US
 
 | Example | Description |
 |:------------- |:------------- |
+| [Merging mods](/examples/merging-mods.html) | Merge one mod's changes into another mod |
 | [Build a mod with React](/examples/react.html) | Build a mod using React |
 | [Build a mod with Vue.js](/examples/vue.html) | Build a mod using Vue.js |
 | [Add custom stylesheets](/examples/custom-stylesheets.html) | Add custom CSS assets to a mod |
