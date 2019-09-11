@@ -15,7 +15,7 @@ Say we're a freelance developer and have an image gallery mod on one of our clie
 
 ### 1. Clone the original mod
 
-While viewing the mod, click the "Clone" button at the top right corner:
+First we'll clone our mod. Click the "Clone" button at the top right corner:
 
 <img src="https://res.cloudinary.com/component/image/upload/v1562704535/examples/0-clone-mod.png">
 
@@ -31,7 +31,7 @@ Edit the mod's CSS, JS, and Readme accordingly.
 
 ### 4. Start merge process
 
-While viewing our newly cloned & edited mod, click the arrow next to the "Clone" button then click "Merge mod".
+To begin the merge, click the arrow next to the "Clone" button then click "Merge mod".
 
 <img src="https://res.cloudinary.com/component/image/upload/v1562704535/examples/2-merge-mod.png">
 

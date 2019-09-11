@@ -106,6 +106,6 @@ Try it: [click here](https://anymod.com/mod/ekaob) to clone the above mod and st
 
 ## Moving a mod to a different project
 
-While viewing our newly cloned & edited mod, click the arrow next to the "Clone" button then click "Move to another project".
+To move a mod to a new project, click the arrow next to the "Clone" button then click "Move to another project".
 
 <img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/move-mod.png">

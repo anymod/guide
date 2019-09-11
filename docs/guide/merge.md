@@ -21,7 +21,7 @@ See [merging mods](/examples/merging-mods.html) for an example where we demonstr
 
 <img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/merge-mod.png">
 
-1. While viewing your mod, start the merge process by clicking the dropdown arrow next to the "Clone" button then clicking "Merge mod".
+1. Start the merge process by clicking the dropdown arrow next to the "Clone" button then clicking "Merge mod".
 2. Select or enter the mod you want to merge yours into.
 3. Review and select the properties you want to overwrite.
 4. Merge! Click the "Merge" button on the top right when you're ready to execute the merge.
