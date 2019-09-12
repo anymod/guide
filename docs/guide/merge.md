@@ -19,7 +19,7 @@ See [merging mods](/examples/merging-mods.html) for an example where we demonstr
 
 ## Steps to merge
 
-<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/merge-mod.png">
+<img alt="Merge a mod" src="https://res.cloudinary.com/component/image/upload/v1568322178/guide/merge-mod.png">
 
 1. Start the merge process by clicking the dropdown arrow next to the "Clone" button then clicking "Merge mod".
 2. Select or enter the mod you want to merge yours into.

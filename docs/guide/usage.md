@@ -7,7 +7,7 @@ lang: en-US
 
 <sandbox/>
 
-## Installing a mod
+## Install a mod
 
 To install a mod on your page, do the following:
 
@@ -35,6 +35,7 @@ To make the mod show on your page, paste the mod tag into your HTML where you wo
 
 then paste the AnyMod script once, just before the closing `</head>` tag:
 
+<!-- prettier-ignore -->
 ```html
 <!-- AnyMod -->
 <script id="AnyMod-script">
@@ -75,7 +76,7 @@ To add multiple mods to a page, paste each mod wherever you want:
 Only add the AnyMod script once, even if you have many mods on a page.
 :::
 
-## Editing a mod
+## Edit a mod
 
 There are two ways to edit a mod:
 
@@ -104,8 +105,8 @@ To edit code from the AnyMod dashboard, make changes to the HTML, CSS, or JS pan
 Try it: [click here](https://anymod.com/mod/ekaob) to clone the above mod and start making edits.
 :::
 
-## Moving a mod to a different project
+## Move a mod to a different project
 
 To move a mod to a new project, click the arrow next to the "Clone" button then click "Move to another project".
 
-<img src="https://res.cloudinary.com/component/image/upload/v1562704535/guide/move-mod.png">
+<img alt="Move a mod" src="https://res.cloudinary.com/component/image/upload/v1568322178/guide/move-mod.png">
