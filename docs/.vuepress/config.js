@@ -134,6 +134,7 @@ module.exports = {
         // '/examples/recaptcha.html',
       ],
       "/module-monday/": [
+        "/module-monday/55.html",
         "/module-monday/54.html",
         "/module-monday/53.html",
         "/module-monday/52.html",
@@ -214,7 +215,7 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page"
   },
-  extendMarkdown (md) {
+  extendMarkdown(md) {
     return {
       lineNumbers: true
     };
