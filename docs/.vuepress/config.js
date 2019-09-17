@@ -87,7 +87,8 @@ module.exports = {
             "/guide/angular.md",
             "/guide/angular-js.md",
             "/guide/bootstrap.md",
-            "/guide/data-only.md"
+            "/guide/data-only.md",
+            "/guide/cloak.md"
           ]
         },
         // TODO
