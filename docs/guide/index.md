@@ -54,7 +54,7 @@ This all results in a fast, repeatable workflow across all of your mods and proj
 
 ## Browser & search compatible
 
-Mods work in all major browsers beyond IE8. This includes Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
+Mods work in all major browsers, including Chrome, Safari, FireFox, Edge, Opera, Internet Explorer 9+, and all other ECMAScript 5 compliant browsers.
 
 Mods are fully indexed by Google and appear in search results alongside other page content. Bing has announced its rollout of indexing for JavaScript, but search results on Bing may not include mod content at this time. Yahoo uses both Google and Bing for its search results, while Ask.com also fully indexes mod content like Google does.
 
