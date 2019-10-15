@@ -123,7 +123,7 @@ module.exports = {
         "/examples/es6.html",
         "/examples/jsx.html",
         "/examples/typescript.html",
-        "/examples/your-api.html",
+        "/examples/with-api.html",
         // Enhancements
         "/examples/optimize-assets.html",
         "/examples/image-manipulation.html",

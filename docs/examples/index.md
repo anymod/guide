@@ -5,41 +5,42 @@ lang: en-US
 
 ### Getting started
 
-| Example | Description |
-|:------------- |:------------- |
+| Example                                            | Description                    |
+| :------------------------------------------------- | :----------------------------- |
 | [Add a mod to your page](/examples/add-a-mod.html) | Install a mod on your web page |
 
 ### Content management
 
-| Example | Description |
-|:------------- |:------------- |
-| [Manage content](/examples/content-management.html)| Edit live content with AnyMod |
+| Example                                                      | Description                        |
+| :----------------------------------------------------------- | :--------------------------------- |
+| [Manage content](/examples/content-management.html)          | Edit live content with AnyMod      |
 | [Make your page editable](/examples/make-page-editable.html) | Make an existing web page editable |
 
 <!-- | [Create a draft](/examples/create-a-draft.html) | Edit and preview content before publishing | -->
 
 ### Build & customize mods
 
-| Example | Description |
-|:------------- |:------------- |
-| [Merging mods](/examples/merging-mods.html) | Merge one mod's changes into another mod |
-| [Build a mod with React](/examples/react.html) | Build a mod using React |
-| [Build a mod with Vue.js](/examples/vue.html) | Build a mod using Vue.js |
-| [Add custom stylesheets](/examples/custom-stylesheets.html) | Add custom CSS assets to a mod |
-| [Add custom scripts](/examples/custom-scripts.html) | Add custom JavaScript assets to a mod |
-| [Use Handlebars](/examples/handlebars.html) | Use Handlebars to insert content in your mod's HTML |
-| [Use SCSS](/examples/scss.html) | Use SCSS syntax auto compiled to CSS |
-| [Use ES6 / ES2015](/examples/es6.html) | Use ES6 syntax auto compiled to ES5 ("regular" JavaScript) |
-| [Use JSX](/examples/jsx.html) | Use JSX syntax auto compiled to ES5 |
-| [Use TypeScript](/examples/typescript.html) | Use TypeScript syntax auto compiled to ES5 |
+| Example                                                     | Description                                                |
+| :---------------------------------------------------------- | :--------------------------------------------------------- |
+| [Merging mods](/examples/merging-mods.html)                 | Merge one mod's changes into another mod                   |
+| [Build a mod with React](/examples/react.html)              | Build a mod using React                                    |
+| [Build a mod with Vue.js](/examples/vue.html)               | Build a mod using Vue.js                                   |
+| [Add custom stylesheets](/examples/custom-stylesheets.html) | Add custom CSS assets to a mod                             |
+| [Add custom scripts](/examples/custom-scripts.html)         | Add custom JavaScript assets to a mod                      |
+| [Use Handlebars](/examples/handlebars.html)                 | Use Handlebars to insert content in your mod's HTML        |
+| [Use SCSS](/examples/scss.html)                             | Use SCSS syntax auto compiled to CSS                       |
+| [Use ES6 / ES2015](/examples/es6.html)                      | Use ES6 syntax auto compiled to ES5 ("regular" JavaScript) |
+| [Use JSX](/examples/jsx.html)                               | Use JSX syntax auto compiled to ES5                        |
+| [Use TypeScript](/examples/typescript.html)                 | Use TypeScript syntax auto compiled to ES5                 |
+| [Use with an API](/examples/with-api.html)                  | Use TypeScript syntax auto compiled to ES5                 |
 
 ### Enhancements
 
-| Example | Description |
-|:------------- |:------------- |
-| [Optimize CSS & JS assets](/examples/optimize-assets.html) | Improve page load times by adding CSS & JS resources directly to a page |
-| [Image manipulation](/examples/image-manipulation.html) | Use AnyMod's `buildImage` function to manipulate images |
-| [Right-size image](/examples/right-size-image.html) | Change image dimensions based on the screen size of the device viewing your page |
+| Example                                                    | Description                                                                      |
+| :--------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| [Optimize CSS & JS assets](/examples/optimize-assets.html) | Improve page load times by adding CSS & JS resources directly to a page          |
+| [Image manipulation](/examples/image-manipulation.html)    | Use AnyMod's `buildImage` function to manipulate images                          |
+| [Right-size image](/examples/right-size-image.html)        | Change image dimensions based on the screen size of the device viewing your page |
 
 <!-- ### External services [TODO]
 
