@@ -4,6 +4,7 @@ lang: en-US
 ---
 
 # Content management (CMS)
+
 <sandbox/>
 
 ## How it works
@@ -53,7 +54,10 @@ Then replace the HTML on your page with the mod HTML:
 ```html
 <!-- REMOVE: Static content -->
 <h2>Lorem ipsum dolor</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet ex tellus, eu elementum lorem euismod quis.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet
+  ex tellus, eu elementum lorem euismod quis.
+</p>
 <!-- /REMOVE -->
 
 <!-- ADD: Lorem ipsum text -->
@@ -61,7 +65,7 @@ Then replace the HTML on your page with the mod HTML:
 <!-- /ADD -->
 ```
 
-Now when your page loads, content will be displayed as before but will be editable.  Compare the [before](/live-demos/cms-before.html) and [after](/live-demos/cms-after.html) live demo to see the differences in content and code.
+Now when your page loads, content will be displayed as before but will be editable. Compare the [before](/live-demos/cms-before.html) and [after](/live-demos/cms-after.html) live demo to see the differences in content and code.
 
 ::: tip
 The textbox above is actually a mod: click the pencil <sandbox-inline/> on the right, then click the text box to edit it.
@@ -94,6 +98,11 @@ Team members can be added and removed easily, or users can update their photos, 
 Click the pencil <sandbox-inline/> on the right, then click the team mod above to make edits.
 :::
 
+## Content versions
+
+Mods allow you to use multiple "versions" of content within the same mod. This is useful for things like multi-language, temporary text & images, or other variations.
+
+See the [Content Versions](/guide/content-versions.html) section for more.
 
 ## Custom code
 

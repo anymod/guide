@@ -6,12 +6,14 @@ lang: en-US
 # Script options
 
 You can customize AnyMod's behavior on each page:
+
 - To show or hide console tips
 - To show or hide the on-page content editor ("toolkit")
 - To load certain mods before others
 
 To do this, edit the options parameter `{}`, which is the final argument of the AnyMod script:
 
+<!-- prettier-ignore -->
 ```html{6}
 <!-- AnyMod -->
 <script id="AnyMod-script">
@@ -25,11 +27,12 @@ To do this, edit the options parameter `{}`, which is the final argument of the 
 
 The following parameters can be added inside the last `{}` argument of line 6 above:
 
-| Attribute  | Possible values | Default | Description  |
-|:-----------|:---------------|:--------------| :------------|
-| `tips`     | `true`,`false` | true | Show perfomance suggestions in the browser console. |
-| `toolkit`  | `true`,`false` | true | Show the toolkit pencil (on-page content editor) for logged in users. |
-| `priority` | `0`,`1`,`2`,`3`,`4`,etc.<br>**or**<br>array of mod keys: `['abcde','fghij']` | 3 | Number of mods to load before loading remaining mods, or array with mod keys to load before loading remaining mods. |
+| Attribute  | Possible values                                                              | Default     | Description                                                                                                         |
+| :--------- | :--------------------------------------------------------------------------- | :---------- | :------------------------------------------------------------------------------------------------------------------ |
+| `tips`     | `true`,`false`                                                               | true        | Show perfomance suggestions in the browser console.                                                                 |
+| `toolkit`  | `true`,`false`                                                               | true        | Show the toolkit pencil (on-page content editor) for logged in users.                                               |
+| `priority` | `0`,`1`,`2`,`3`,`4`,etc.<br>**or**<br>array of mod keys: `['abcde','fghij']` | 3           | Number of mods to load before loading remaining mods, or array with mod keys to load before loading remaining mods. |
+| `version`  | Any version name (`'ES'`,`'v2'`,etc.)                                        | `'default'` | Set the mods on a page to use a specific content version.                                                           |
 
 By default, AnyMod loads the first 3 mods on a page first, then loads any remaining mods.
 

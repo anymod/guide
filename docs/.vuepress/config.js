@@ -82,6 +82,7 @@ module.exports = {
             "/guide/merge.html",
             "/guide/script.md",
             "/guide/global-methods.md",
+            "/guide/content-versions.md",
             "/guide/react.md",
             "/guide/vue.md",
             "/guide/angular.md",
